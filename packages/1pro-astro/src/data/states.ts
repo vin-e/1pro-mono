@@ -11,12 +11,15 @@ export const states: State[] = [
         name: 'California State Fire Marshal',
         url: 'http://osfm.fire.ca.gov/',
       },
-      { name: 'California State Website', url: 'http://www.ca.gov/' },
+      {
+        name: 'California State Website',
+        url: 'http://www.ca.gov/'
+      },
     ],
   },
-  { name: 'Florida', abbreviation: 'FL', url: '/fl/' },
 ];
 
+// { name: 'Florida', abbreviation: 'FL', url: '/fl/' },
 // { name: 'Alabama', abbreviation: 'AL' },
 // { name: 'Alaska', abbreviation: 'AK' },
 // { name: 'Arizona', abbreviation: 'AZ' },
