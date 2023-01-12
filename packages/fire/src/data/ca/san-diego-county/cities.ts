@@ -1,4 +1,4 @@
-import type { City } from '../..//utils';
+import type { City } from '../../utils';
 
 export const cities: City[] = [
   { name: 'Alpine', url: '/alpine/', geo: { latitude: 32.837, longitude: -116.776 } },
