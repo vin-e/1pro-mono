@@ -1,0 +1,33 @@
+{
+  "name": "1pro-mono",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "release": "pnpm run build && changeset publish",
+    "build": "turbo run build --output-logs=new-only --no-deps --filter=astro --filter=create-astro --filter=\"@astrojs/*\"",
+    "build:ci": "turbo run build:ci --output-logs=new-only --no-deps --filter=astro --filter=create-astro --filter=\"@astrojs/*\"",
+    "dev": "turbo run dev --no-deps --no-cache --parallel --filter=astro --filter=create-astro --filter=\"@astrojs/*\"",
+    "test": "turbo run test --output-logs=new-only --concurrency=1 --filter=astro --filter=create-astro --filter=\"@astrojs/*\"",
+    "lint": "eslint --cache ."
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@changesets/changelog-github": "0.4.8",
+    "@changesets/cli": "2.26.0",
+    "@types/node": "^18.11.18",
+    "@typescript-eslint/eslint-plugin": "^5.48.1",
+    "@typescript-eslint/parser": "^5.48.1",
+    "esbuild": "^0.16.17",
+    "eslint": "^8.31.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-no-only-tests": "^3.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.2",
+    "prettier-plugin-astro": "^0.7.2",
+    "tiny-glob": "^0.2.9",
+    "turbo": "1.7.0",
+    "typescript": "~4.9.4"
+  }
+}

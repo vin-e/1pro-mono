@@ -1,0 +1,55 @@
+---
+import Logo from "./atoms/Logo.astro";
+import ToggleMenu from "./atoms/ToggleMenu.astro";
+---
+
+<header
+  class="sticky top-0 z-40 flex-none mx-auto w-full bg-white md:bg-white/90 md:backdrop-blur-sm border-b"
+>
+  <div
+    class="py-3 px-3 mx-auto w-full md:flex md:justify-between max-w-6xl md:px-4"
+  >
+    <div class="flex justify-between">
+      <a
+        class="flex items-center text-primary-600 hover:text-primary-800"
+        href="/"
+      >
+        <Logo />
+      </a>
+      <div class="flex items-center md:hidden">
+        <ToggleMenu />
+      </div>
+    </div>
+    <nav
+      class="items-center w-full md:w-auto hidden md:flex text-gray-600 h-screen md:h-auto"
+      aria-label="Main navigation"
+      id="menu"
+    >
+      <ul
+        class="flex flex-col pt-8 md:pt-0 md:flex-row md:self-center collapse w-full md:w-auto collapsed text-xl md:text-base"
+      >
+        <li>
+          <a
+            class="font-medium hover:text-gray-900 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+            href="/find-a-location/"
+            >Find a Location
+          </a>
+        </li>
+        <li>
+          <a
+            class="font-medium hover:text-gray-900 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+            href="/ca/"
+            >California
+          </a>
+        </li>
+        <li>
+          <a
+            class="font-medium hover:text-gray-900 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+            href="/fl/"
+            >Florida
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>

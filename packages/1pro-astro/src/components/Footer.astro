@@ -1,0 +1,114 @@
+---
+import Logo from "./atoms/Logo.astro";
+
+const { companyLegal } = Astro.props;
+const year = new Date().getFullYear();
+---
+
+<footer>
+  <div class="max-w-6xl mx-auto px-4 sm:px-6">
+    <div class="grid grid-cols-12 gap-4 gap-y-8 sm:gap-8 py-6 md:py-8 border-t border-gray-200">
+      <div class="col-span-12 lg:col-span-3">
+        <div class="mb-2">
+          <a class="inline-block font-bold text-xl text-primary-600 hover:text-primary-800" href="/"><Logo /></a>
+        </div>
+      </div>
+      <div class="col-span-6 md:col-span-3 lg:col-span-3">
+        <div class="text-gray-800 font-medium mb-2">
+          <a href="/ca/">California</a>
+        </div>
+        <ul class="text-sm">
+          <li class="mb-2">
+            <a class="text-gray-600 hover:text-gray-800 transition duration-150 ease-in-out" href="/ca/los-angeles-county/"
+              >Los Angeles County
+            </a>
+          </li>
+          <li class="mb-2">
+            <a class="text-gray-600 hover:text-gray-800 transition duration-150 ease-in-out" href="/ca/orange-county/"
+              >Orange County
+            </a>
+          </li>
+          <li class="mb-2">
+            <a class="text-gray-600 hover:text-gray-800 transition duration-150 ease-in-out" href="/ca/riverside-county"
+              >Riverside County
+            </a>
+          </li>
+          <li class="mb-2">
+            <a class="text-gray-600 hover:text-gray-800 transition duration-150 ease-in-out" href="/ca/san-bernardino-county/"
+              >San Bernardino County
+            </a>
+          </li>
+          <li class="mb-2">
+            <a class="text-gray-600 hover:text-gray-800 transition duration-150 ease-in-out" href="/ca/san-diego-county/"
+              >San Diego County
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-span-6 md:col-span-3 lg:col-span-3">
+        <div class="text-gray-800 font-medium mb-2">
+          <a href="/fl/">Florida</a>
+        </div>
+        <ul class="text-sm">
+          <li class="mb-2">
+            <a class="text-gray-600 hover:text-gray-800 transition duration-150 ease-in-out" href="/fl/alachua-county/"
+              >Alachua County
+            </a>
+          </li>
+          <li class="mb-2">
+            <a class="text-gray-600 hover:text-gray-800 transition duration-150 ease-in-out" href="/fl/brevard-county/"
+              >Brevard County
+            </a>
+          </li>
+          <li class="mb-2">
+            <a class="text-gray-600 hover:text-gray-800 transition duration-150 ease-in-out" href="/fl/duval-county/"
+              >Duval County
+            </a>
+          </li>
+          <li class="mb-2">
+            <a class="text-gray-600 hover:text-gray-800 transition duration-150 ease-in-out" href="/fl/orange-county/"
+              >Orange County
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-span-6 md:col-span-3 lg:col-span-3">
+        <div class="text-gray-800 font-medium mb-2">Company</div>
+        <ul class="text-sm">
+          <li class="mb-2">
+            <a class="text-gray-600 hover:text-gray-800 transition duration-150 ease-in-out" href="/about/"
+              >About
+            </a>
+          </li>
+          <li class="mb-2">
+            <a class="text-gray-600 hover:text-gray-800 transition duration-150 ease-in-out" href="/find-a-location/"
+              >Find a Location
+            </a>
+          </li>
+          <li class="mb-2">
+            <a class="text-gray-600 hover:text-gray-800 transition duration-150 ease-in-out" href="/sitemap/"
+              >Sitemap
+            </a>
+          </li>
+          <li class="mb-2">
+            <a
+              class="text-gray-600 hover:text-gray-800 transition duration-150 ease-in-out"
+              href="/legal/"
+              >Legal &amp; Privacy Policy
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="md:flex md:items-center md:justify-between py-2 md:py-4">
+        <div class="container mx-auto text-sm text-gray-700 mr-4">
+          <p class="text-sm pb-2">©{year} Copyright <a class="hover:text-gray-500" href="/">1ProFire.com</a></p>
+          <p class="text-xs">
+            {companyLegal
+              ? companyLegal
+              : "All calls to our service providers may be recorded for quality purposes. 1 Pro Fire will like to ensure that the provider is giving you the best Fire Protection Services possible."}
+          </p>
+      </div>
+    </div>
+  </div>
+</footer>
