@@ -5,12 +5,13 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "astro build --verbose && cp -r ./toCopy/fl ./dist/fl",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^2.0.0-beta.2"
+    "astro": "^2.0.0-beta.2",
+    "autoprefixer": "^10.4.13"
   },
   "devDependencies": {
     "@1pro/components": "*",
