@@ -17,7 +17,7 @@ const states = await getStates(true);
         {state.counties?.map((item) => (
           <div class="py-2">
             <h3>
-              <a class="text-md" href={item.url}>{item.name}</a>
+              <a class="text-md" href={item.url}>{item.name} County</a>
             </h3>
             <a class="bg-primary-600 text-primary-100 hover:bg-blue-700 hover:text-white focus:outline-none focus:ring-4 focus:ring-gray-200 rounded-lg text-sm p-1.5 inline-flex items-center" href={`tel:${item.phone}`}>{item.phone}</a>
           </div>
