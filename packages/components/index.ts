@@ -8,6 +8,10 @@ import Footer from './src/Footer.astro';
 import GradientText from './src/GradientText.astro';
 import Header from './src/Header.astro';
 
+import CountyPhoneList from './src/CountyPhoneList.astro';
+import CTALink from './src/CTALink.astro';
+import CTASection from './src/CTASection.astro';
+
 export {
   Fonts,
   Head,
@@ -17,5 +21,11 @@ export {
   Card,
   Footer,
   GradientText,
-  Header
+  Header,
+
+  CountyPhoneList,
+  CTALink,
+  CTASection,
 };
+
+export * from "./src/locationTypes";

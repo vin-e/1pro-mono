@@ -21,4 +21,10 @@ module.exports = {
 	},
 	plugins: [require("@tailwindcss/typography")],
 	darkMode: "class",
+	safelist: [
+    {
+      pattern: /(bg|text)-*-*/,
+      variants: ['lg', 'hover', 'focus', 'lg:hover'],
+    },
+  ],
 }

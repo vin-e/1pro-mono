@@ -1,4 +1,4 @@
-import type { State } from './utils';
+import type { State } from '@1pro/components';
 
 export const states: State[] = [
   {

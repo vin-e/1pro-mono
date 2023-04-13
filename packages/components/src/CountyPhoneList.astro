@@ -1,0 +1,26 @@
+---
+import { CTALink } from '..';
+
+export interface Props {
+	labelPrefix: string;
+	labelSuffix: string;
+  counties: any[]
+}
+
+const { labelPrefix, labelSuffix, counties } = Astro.props;
+const getLabel = (countyName: string) => {
+  const label = `${labelPrefix || ''} ${countyName} ${labelSuffix || ''}`;
+  return label.trim();
+}
+---
+
+<div class="grid grid-cols-2 gap-1 not-prose text-center mt-4 pt-4 border-t-2 border-gray-400">
+  {counties?.map((item) => (
+    <div class="py-2">
+      <h3 class="mb-3">
+        <a class="text-md" href={item.url}>{getLabel(item.name)} County</a>
+      </h3>
+      <CTALink href={`tel:${item.phone}`} text={item.phone} color="primary" />
+    </div>
+  ))}
+</div>

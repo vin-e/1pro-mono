@@ -1,0 +1,20 @@
+---
+export interface Props {
+	color?: string;
+	href: string;
+	text: string;
+	textColor?: string;
+}
+
+const { color, href, text, textColor } = Astro.props;
+const usedColor = color !== undefined ? color : 'blue';
+const usedTextColor = textColor !== undefined ? textColor : 'white';
+---
+
+<a
+	href={href}
+	class={`transition-colors rounded-md bg-${usedColor}-500 px-3.5 py-2.5 text-sm font-semibold text-${usedTextColor} shadow-sm hover:bg-${usedColor}-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white`}
+>
+	{text}
+</a>
+          

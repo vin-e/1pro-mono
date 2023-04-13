@@ -1,4 +1,4 @@
-import type { City } from "../../utils";
+import type { City } from "@1pro/components";
 
 export const cities: City[] = [
   {

@@ -1,4 +1,4 @@
-import type { County } from "../utils";
+import type { County } from "@1pro/components";
 
 export const counties: County[] = [
   { name: 'Alachua', abbreviation: 'AL', phone: '(352) 480-0880', url: '/fl/alachua-county/' },

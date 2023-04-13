@@ -65,6 +65,9 @@ importers:
       astro:
         specifier: ^2.2.1
         version: 2.2.1(@types/node@18.15.11)
+      astro-icon:
+        specifier: 0.8.0
+        version: 0.8.0
       autoprefixer:
         specifier: ^10.4.14
         version: 10.4.14(postcss@8.4.21)
