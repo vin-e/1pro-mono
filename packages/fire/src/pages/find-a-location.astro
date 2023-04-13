@@ -1,6 +1,6 @@
 ---
 import { getStates } from "../data/utils";
-import { CountyPhoneList } from "@1pro/components";
+import { CountyPhoneList, GradientText } from "@1pro/components";
 import PageLayout from "../layouts/Page.astro";
 
 const states = await getStates(true);
@@ -8,7 +8,7 @@ const states = await getStates(true);
 
 <PageLayout title="Find a Location - 1ProFire" hideCTA>
   <Fragment slot="title">
-    <span>Find a Location</span>
+    <span>Find a</span><GradientText>Location</GradientText>
   </Fragment>
   {states.map(state => (
     <div class="text-md">

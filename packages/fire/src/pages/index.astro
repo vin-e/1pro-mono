@@ -1,9 +1,22 @@
 ---
+import { CTASection } from "@1pro/components";
 import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Welcome to Astro.">
 	<main>
-		<h1>Welcome to <span class="text-gradient">your mom</span></h1>
+		<div class="container mx-auto py-8">
+			<h1 class="text-4xl font-bold">Welcome to Astro.</h1>
+			<p class="text-lg">This is a starter template for Astro. It includes a basic layout and some common components.</p>
+			<p class="text-lg">To get started, edit <code>src/pages/index.astro</code> and save to reload.</p>
+			<p class="text-lg">For more information, check out the <a href="https://docs.astro.build" class="underline">documentation</a>.</p>
+		</div>
 	</main>
+	<CTASection />
+	<div class="bg-amber-50">
+		<div class="container mx-auto py-8 text-slate-600">
+			<h3>Attention Fire Protection Companies</h3>
+			<p class="text-sm">We are looking to expand our reach beyond the current cities we service. If you would like to learn how to join our service please reach out to us at <a href="email:info@1profire.com" class="underline">info@1profire.com</a> today!</p>
+		</div>
+	</div>
 </Layout>

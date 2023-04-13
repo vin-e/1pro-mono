@@ -2,18 +2,24 @@
 import { CTASection, Head, Header, Footer } from '@1pro/components';
 
 export interface Props {
+	companyLegal?: string;
 	title?: string;
 }
 
-const { title } = Astro.props;
+const { companyLegal, title } = Astro.props;
 ---
 
 <!DOCTYPE html>
 <html lang="en" class="motion-safe:scroll-smooth 2xl:text-[24px]">
 	<Head title={title} />
 	<body class="antialiased text-gray-900 tracking-tight bg-white">
+		<div class="bg-primary-100 border-b-2 border-primary-300 text-gray-700">
+			<div class="container text-xs text-center py-2">
+				<span class="font-bold">INFO:</span> We are actiely updating our website. You may see updated designs and then get directed to pages that need some work. We are working on it and thank you for visiting!
+			</div>
+		</div>
 		<Header />
 		<slot />
-		<Footer />
+		<Footer companyLegal={companyLegal} />
 	</body>
 </html>

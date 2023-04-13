@@ -1,7 +1,14 @@
 ---
 import Layout from "./Layout.astro";
 import { CTASection } from "@1pro/components";
-const { hideCTA } = Astro.props;
+
+export interface Props {
+	companyLegal?: string;
+  hideCTA?: boolean;
+	title?: string;
+}
+
+const { companyLegal, hideCTA, title } = Astro.props;
 const url = Astro.request.url;
 const definedLocation = url.includes('/ca/') ? 'socal' : 'notDefined';
 
@@ -20,8 +27,8 @@ const locations: location = {
 const { phone, email } = locations[definedLocation];
 ---
 
-<Layout>
-  <section class="px-1 sm:px-6 py-8 sm:py-12 mx-auto max-w-3xl">
+<Layout title={title} companyLegal={companyLegal}>
+  <section class="px-1 sm:px-6 py-4 mx-auto max-w-3xl">
     <header class="mb-8 md:mb-16">
       <h1
         class="text-center text-2xl md:text-3xl font-bold leading-tighter tracking-tighter mb-3 md:mb-5 font-heading"
