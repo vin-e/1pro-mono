@@ -1,6 +1,23 @@
 ---
 import Layout from "./Layout.astro";
-// const { meta } = Astro.props;
+import { CTASection } from "@1pro/components";
+const { hideCTA } = Astro.props;
+const url = Astro.request.url;
+const definedLocation = url.includes('/ca/') ? 'socal' : 'notDefined';
+
+type location = {
+  [key: string]: {
+    phone?: string;
+    email?: string;
+  };
+}
+
+const locations: location = {
+  notDefined: {},
+  socal: { phone: '844-505-4532', email: 'socal@1profire.com' },
+}
+
+const { phone, email } = locations[definedLocation];
 ---
 
 <Layout>
@@ -23,4 +40,5 @@ import Layout from "./Layout.astro";
       <slot />
     </div>
   </section>
+  {!hideCTA && <CTASection phone={phone} email={email} />}
 </Layout>
