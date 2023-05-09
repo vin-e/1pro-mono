@@ -13,8 +13,10 @@ const states = await getStates(true);
   {states.map(state => (
     <div class="text-md">
       <h2><a href={state.url}>{state.name}</a></h2>
-      <small class="">We support all of Southern California</small>
-      <CountyPhoneList counties={state.counties} />
+      {state.abbreviation === 'CA' && (
+        <small class="text-sm">We support all of Southern California</small>
+      )}
+      <CountyPhoneList counties={state.counties!} />
     </div>
   ))}
 </PageLayout>
