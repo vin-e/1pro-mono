@@ -12,6 +12,9 @@ import CountyPhoneList from './src/CountyPhoneList.astro';
 import CTALink from './src/CTALink.astro';
 import CTASection from './src/CTASection.astro';
 
+import StateLayout from './src/StateLayout.astro';
+import CountyLayout from './src/CountyLayout.astro';
+
 export {
   Fonts,
   Head,
@@ -26,6 +29,9 @@ export {
   CountyPhoneList,
   CTALink,
   CTASection,
+
+  StateLayout,
+  CountyLayout
 };
 
 export * from "./src/locationTypes";

@@ -1,0 +1,51 @@
+---
+import { getStates } from "../data/utils";
+import PageLayout from "../layouts/Page.astro";
+import { CountyLayout, PAGE_TYPES, StateLayout } from "@1pro/components";
+
+export async function getStaticPaths() {
+  const pages = []
+
+  // gather states
+  const states = await getStates(true, true);
+
+  for (let state of states) {
+    pages.push({ params: { slug: state.url }, props: { type: PAGE_TYPES.STATE, state, title: state.title } });
+
+    // gather counties
+    for (let county of state.counties!) {
+      pages.push({
+        params: { slug: county.url },
+        props: {
+          county,
+          disclaimer: county.disclaimer,
+          state,
+          title: county.title,
+          type: PAGE_TYPES.COUNTY
+        }
+      });
+    }
+  }
+
+  return pages;
+}
+
+const { disclaimer, title, type } = Astro.props;
+
+const getLayout = (type: any) => {
+  switch (type) {
+    case PAGE_TYPES.STATE:
+      return StateLayout;
+    case PAGE_TYPES.COUNTY:
+      return CountyLayout;
+    default:
+      return 'div';
+  }
+}
+
+const PageTypeLayout = getLayout(type);
+---
+
+<PageLayout title={title} companyLegal={disclaimer}>
+  <PageTypeLayout {...Astro.props} />
+</PageLayout>

@@ -6,7 +6,8 @@ export const counties: County[] = [
     abbreviation: "LA",
     disclaimer: '*1ProFire services in this city are provided by Hedrick Fire Protection (HFP). HFP has C-16 and C-10 contractors licenses in the state of California.',
     phone: "213-568-0188",
-    url: "/ca/los-angeles-county/",
+    url: "ca/los-angeles-county",
+    title: "Los Angeles County Fire Protection Services - 1ProFire",
     links: [
       {
         name: "Los Angeles County Fire Department",
@@ -25,7 +26,8 @@ export const counties: County[] = [
     abbreviation: "OR",
     disclaimer: '*1ProFire services in this city are provided by Hedrick Fire Protection (HFP). HFP has C-16 and C-10 contractors licenses in the state of California.',
     phone: "949-558-2201",
-    url: "/ca/orange-county/",
+    url: "ca/orange-county",
+    title: "Orange County Fire Protection Services - 1ProFire",
     links: [
       { name: "Orange County Fire Authority", url: "http://www.ocfa.org/" },
       { name: "Orange County Website", url: "http://www.ocgov.com/" },
@@ -41,7 +43,8 @@ export const counties: County[] = [
     abbreviation: "RI",
     disclaimer: '*1ProFire services in this city are provided by Hedrick Fire Protection (HFP). HFP has C-16 and C-10 contractors licenses in the state of California.',
     phone: "951-384-0323",
-    url: "/ca/riverside-county/",
+    url: "ca/riverside-county",
+    title: "Riverside County Fire Protection Services - 1ProFire",
     links: [
       {
         name: "Riverside County Fire Department",
@@ -56,7 +59,8 @@ export const counties: County[] = [
     abbreviation: "SN",
     disclaimer: '*1ProFire services in this city are provided by Hedrick Fire Protection (HFP). HFP has C-16 and C-10 contractors licenses in the state of California.',
     phone: "909-219-9411",
-    url: "/ca/san-bernardino-county/",
+    url: "ca/san-bernardino-county",
+    title: "San Bernardino County Fire Protection Services - 1ProFire",
     links: [
       {
         name: "San Bernardino County Fire Department",
@@ -70,7 +74,8 @@ export const counties: County[] = [
     abbreviation: "SD",
     disclaimer: '*1ProFire services in this city are provided by Hedrick Fire Protection (HFP). HFP has C-16 and C-10 contractors licenses in the state of California.',
     phone: "619-568-5440",
-    url: "/ca/san-diego-county/",
+    url: "ca/san-diego-county",
+    title: "San Diego County Fire Protection Services - 1ProFire",
     links: [
       {
         name: "San Diego County Fire Authority",

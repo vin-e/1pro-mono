@@ -28,24 +28,6 @@ const { phone, email } = locations[definedLocation];
 ---
 
 <Layout title={title} companyLegal={companyLegal}>
-  <section class="px-1 sm:px-6 py-4 mx-auto max-w-3xl">
-    <header class="mb-8 md:mb-16">
-      <h1
-        class="text-center text-2xl md:text-3xl font-bold leading-tighter tracking-tighter mb-3 md:mb-5 font-heading"
-      >
-        <slot name="title" />
-      </h1>
-      <div
-        class="text-center"
-      >
-        <slot name="header-cta" />
-      </div>
-    </header>
-    <div
-      class="container mx-auto px-2 xs:px-6 max-w-3xl prose prose-md prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-primary-600 prose-img:rounded-md prose-img:shadow-lg mt-4"
-    >
-      <slot />
-    </div>
-  </section>
+  <slot />
   {!hideCTA && <CTASection phone={phone} email={email} />}
 </Layout>

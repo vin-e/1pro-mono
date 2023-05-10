@@ -1,7 +1,8 @@
 export interface BaseEntity {
   name: string
   url: string
-  links?: BaseEntity[]
+  links?: BaseEntity[],
+  title?: string
 }
 
 interface GeoCoordinates {
@@ -30,3 +31,9 @@ export interface State extends BaseLocationEntity {
   abbreviation: string
   counties?: County[]
 }
+
+export const PAGE_TYPES = {
+  STATE: "state",
+  COUNTY: "county",
+  CITY: "city",
+};

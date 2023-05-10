@@ -4,8 +4,9 @@ export const states: State[] = [
   {
     name: 'California',
     abbreviation: 'CA',
-    url: '/ca/',
+    url: 'ca',
     phone: '844-505-4532',
+    title: 'California Fire Protection Services - 1ProFire',
     links: [
       {
         name: 'California State Fire Marshal',
@@ -19,7 +20,7 @@ export const states: State[] = [
   },
 ];
 
-// { name: 'Florida', abbreviation: 'FL', url: '/fl/' },
+// { name: 'Florida', abbreviation: 'FL', url: 'fl' },
 // { name: 'Alabama', abbreviation: 'AL' },
 // { name: 'Alaska', abbreviation: 'AK' },
 // { name: 'Arizona', abbreviation: 'AZ' },

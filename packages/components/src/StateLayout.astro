@@ -1,0 +1,62 @@
+---
+import { Icon } from 'astro-icon';
+import CTALink from './CTALink.astro';
+import GradientText from './GradientText.astro';
+import type { State } from './locationTypes';
+
+export interface Props {
+	state: State;
+}
+
+const { state } = Astro.props;
+---
+
+<section class="px-1 sm:px-6 py-4 mx-auto max-w-3xl">
+	<header class="mb-8 md:mb-16">
+		<h1
+			class="text-center text-2xl md:text-3xl font-bold leading-tighter tracking-tighter mb-3 md:mb-5 font-heading"
+		>
+			{state.name}
+			<GradientText>Fire Protection Services</GradientText>
+		</h1>
+		<div class="text-center">
+			<CTALink href={`tel:+1${state.phone}`} text={`Call Today at ${state.phone}`} color="amber" />
+		</div>
+	</header>
+	<div
+		class="container mx-auto px-2 xs:px-6 max-w-3xl prose prose-md prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-primary-600 prose-img:rounded-md prose-img:shadow-lg mt-4"
+	>
+		<p>
+			With 1ProFire, you can rest assured that you're getting the best fire protection services
+			available. Whether you need a fire hydrant, or just need some extra help keeping your fire
+			extinguishers up to code, 1ProFire has you covered.
+		</p>
+		<p>
+			We have technicians that can go nearly anywhere in Southern California, so no matter where you
+			live can go to you! And our friendly staff is always ready to help with whatever your needs
+			may be. Just give us a call today!
+		</p>
+
+		<div class="container sm:contain">
+			<h2 class="text-2xl text-center font-bold text-slate-600">Counties We Serve Today!</h2>
+			<ul class="list-none text-sm divide-y divide-slate-200 p-0">
+				{
+					state.counties?.map((county) => (
+						<li class="grid grid-cols-2 gap-4 pt-4 pb-2">
+							<a href={`/${county.url}/`} class="md:text-right no-underline">
+								{county.name} County
+							</a>
+							<a
+								href={`tel:+1${county.phone}`}
+								class="text-right md:text-left text-slate-600 no-underline"
+							>
+								<Icon name="tabler:phone" class="w-6 h-6 inline-block" optimize={false} />{' '}
+								{county.phone}
+							</a>
+						</li>
+					))
+				}
+			</ul>
+		</div>
+	</div>
+</section>

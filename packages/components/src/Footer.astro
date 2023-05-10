@@ -29,7 +29,7 @@ const year = new Date().getFullYear();
             </a>
           </li>
           <li class="mb-2">
-            <a class="text-gray-600 hover:text-gray-800 transition duration-150 ease-in-out" href="/ca/riverside-county"
+            <a class="text-gray-600 hover:text-gray-800 transition duration-150 ease-in-out" href="/ca/riverside-county/"
               >Riverside County
             </a>
           </li>
@@ -103,10 +103,12 @@ const year = new Date().getFullYear();
     <div class="md:flex md:items-center md:justify-between py-2 md:py-4">
         <div class="container mx-auto text-sm text-gray-700 mr-4">
           <p class="text-sm pb-2">©{year} Copyright <a class="hover:text-gray-500" href="/">1ProFire.com</a></p>
+          {companyLegal
+            && <p class="text-xs mb-1">
+              {companyLegal}
+            </p>}
           <p class="text-xs">
-            {companyLegal
-              ? companyLegal
-              : "All calls to our service providers may be recorded for quality purposes. 1 Pro Fire will like to ensure that the provider is giving you the best Fire Protection Services possible."}
+            All calls to our service providers may be recorded for quality purposes. 1 Pro Fire will like to ensure that the provider is giving you the best Fire Protection Services possible.
           </p>
       </div>
     </div>
