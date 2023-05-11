@@ -1,8 +1,9 @@
 export interface BaseEntity {
   name: string
   url: string
-  links?: BaseEntity[],
+  links?: BaseEntity[]
   title?: string
+  disabled?: boolean
 }
 
 interface GeoCoordinates {

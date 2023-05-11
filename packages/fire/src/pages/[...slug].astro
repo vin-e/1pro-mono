@@ -10,10 +10,14 @@ export async function getStaticPaths() {
   const states = await getStates(true, true);
 
   for (let state of states) {
+    if (state.disabled) continue;
+
     pages.push({ params: { slug: state.url }, props: { type: PAGE_TYPES.STATE, state, title: state.title } });
 
     // gather counties
     for (let county of state.counties!) {
+      if (county.disabled) continue;
+
       pages.push({
         params: { slug: county.url },
         props: {
@@ -24,6 +28,27 @@ export async function getStaticPaths() {
           type: PAGE_TYPES.COUNTY
         }
       });
+      // gather county services
+
+      // gather cities
+      for (let city of county.cities!) {
+        if (city.disabled) continue;
+
+        pages.push({
+          params: { slug: city.url },
+          props: {
+            city,
+            county,
+            disclaimer: county.disclaimer,
+            state,
+            title: city.title,
+            type: PAGE_TYPES.CITY
+          }
+        });
+
+        // gather city services
+
+      }
     }
   }
 
