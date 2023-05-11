@@ -3,6 +3,8 @@ import Logo from "./atoms/Logo.astro";
 
 const { companyLegal } = Astro.props;
 const year = new Date().getFullYear();
+
+// TODO: Remove state links from footer so this can be more dynamic with another site.
 ---
 
 <footer>
@@ -102,13 +104,13 @@ const year = new Date().getFullYear();
     </div>
     <div class="md:flex md:items-center md:justify-between py-2 md:py-4">
         <div class="container mx-auto text-sm text-gray-700 mr-4">
-          <p class="text-sm pb-2">©{year} Copyright <a class="hover:text-gray-500" href="/">1ProFire.com</a></p>
+          <p class="text-sm pb-2">©{year} Copyright <a class="hover:text-gray-500" href="/">{import.meta.env.VITE_SITE_URL_DISPLAY}</a></p>
           {companyLegal
             && <p class="text-xs mb-1">
               {companyLegal}
             </p>}
           <p class="text-xs">
-            All calls to our service providers may be recorded for quality purposes. 1 Pro Fire will like to ensure that the provider is giving you the best Fire Protection Services possible.
+            All calls to our service providers may be recorded for quality purposes. {import.meta.env.VITE_SITE_NAME} will like to ensure that the provider is giving you the best {import.meta.env.VITE_FULL_SERVICES_TITLE} possible.
           </p>
       </div>
     </div>

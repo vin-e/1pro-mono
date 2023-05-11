@@ -20,7 +20,7 @@ const { email, phone } = Astro.props;
     </div>
   }
   {!phone && !email && 
-    <h2 class="text-2xl font-bold mb-6">Looking for Fire Protection Services?</h2>
+    <h2 class="text-2xl font-bold mb-6">Looking for {import.meta.env.VITE_FULL_SERVICES_TITLE}?</h2>
     <CTALink href="/find-a-location/" text="Find a location near you!" color="amber" />
   }
 </div>

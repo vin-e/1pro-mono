@@ -3,7 +3,7 @@ import type { City } from "@1pro/components";
 export const cities: City[] = [
   {
     name: "Aguanga",
-    url: "/ca/aguanga/",
+    url: "ca/aguanga",
     geo: {
       latitude: 33.5,
       longitude: -116.75,
@@ -11,7 +11,7 @@ export const cities: City[] = [
   },
   {
     name: "Anza",
-    url: "/ca/anza/",
+    url: "ca/anza",
     geo: {
       latitude: 33.5,
       longitude: -116.75,
@@ -19,7 +19,7 @@ export const cities: City[] = [
   },
   {
     name: "Banning",
-    url: "/ca/banning/",
+    url: "ca/banning",
     geo: {
       latitude: 33.933333,
       longitude: -116.85,
@@ -27,16 +27,15 @@ export const cities: City[] = [
   },
   {
     name: "Beaumont",
-    url: "/ca/beaumont/",
+    url: "ca/beaumont",
     geo: {
       latitude: 33.933333,
       longitude: -116.85,
     },
   },
-  // { name: "Bermuda Dunes", url: "/ca/bermuda-dunes/" },
   {
     name: "Blythe",
-    url: "/ca/blythe/",
+    url: "ca/blythe",
     geo: {
       latitude: 33.6175,
       longitude: -114.6,
@@ -44,7 +43,7 @@ export const cities: City[] = [
   },
   {
     name: "Cabazon",
-    url: "/ca/cabazon/",
+    url: "ca/cabazon",
     geo: {
       latitude: 33.933333,
       longitude: -116.85,
@@ -52,7 +51,7 @@ export const cities: City[] = [
   },
   {
     name: "Calimesa",
-    url: "/ca/calimesa/",
+    url: "ca/calimesa",
     geo: {
       latitude: 33.933333,
       longitude: -116.85,
@@ -60,7 +59,7 @@ export const cities: City[] = [
   },
   {
     name: "Canyon Lake",
-    url: "/ca/canyon-lake/",
+    url: "ca/canyon-lake",
     geo: {
       latitude: 33.6175,
       longitude: -114.6,
@@ -68,7 +67,7 @@ export const cities: City[] = [
   },
   {
     name: "Cathedral City",
-    url: "/ca/cathedral-city/",
+    url: "ca/cathedral-city",
     geo: {
       latitude: 33.8675,
       longitude: -116.5,
@@ -76,7 +75,7 @@ export const cities: City[] = [
   },
   {
     name: "Coachella",
-    url: "/ca/coachella/",
+    url: "ca/coachella",
     geo: {
       latitude: 33.683333,
       longitude: -116.166667,
@@ -84,7 +83,7 @@ export const cities: City[] = [
   },
   {
     name: "Corona",
-    url: "/ca/corona/",
+    url: "ca/corona",
     geo: {
       latitude: 33.875,
       longitude: -117.566667,
@@ -92,7 +91,7 @@ export const cities: City[] = [
   },
   {
     name: "Desert Center",
-    url: "/ca/desert-center/",
+    url: "ca/desert-center",
     geo: {
       latitude: 33.6175,
       longitude: -114.6,
@@ -100,16 +99,15 @@ export const cities: City[] = [
   },
   {
     name: "Desert Hot Springs",
-    url: "/ca/desert-hot-springs/",
+    url: "ca/desert-hot-springs",
     geo: {
       latitude: 33.95,
       longitude: -116.533333,
     },
   },
-  // { name: "Eastvale", url: "/ca/eastvale/", geo: { latitude: 33.95, longitude: -117.533333, } },
   {
     name: "Hemet",
-    url: "/ca/hemet/",
+    url: "ca/hemet",
     geo: {
       latitude: 33.75,
       longitude: -116.966667,
@@ -117,7 +115,7 @@ export const cities: City[] = [
   },
   {
     name: "Homeland",
-    url: "/ca/homeland/",
+    url: "ca/homeland",
     geo: {
       latitude: 33.6175,
       longitude: -114.6,
@@ -125,7 +123,7 @@ export const cities: City[] = [
   },
   {
     name: "Indian Wells",
-    url: "/ca/indian-wells/",
+    url: "ca/indian-wells",
     geo: {
       latitude: 33.683333,
       longitude: -116.166667,
@@ -133,7 +131,7 @@ export const cities: City[] = [
   },
   {
     name: "Indio",
-    url: "/ca/indio/",
+    url: "ca/indio",
     geo: {
       latitude: 33.72,
       longitude: -116.22,
@@ -141,7 +139,7 @@ export const cities: City[] = [
   },
   {
     name: "La Quinta",
-    url: "/ca/la-quinta/",
+    url: "ca/la-quinta",
     geo: {
       latitude: 33.683333,
       longitude: -116.166667,
@@ -149,7 +147,7 @@ export const cities: City[] = [
   },
   {
     name: "Lake Elsinore",
-    url: "/ca/lake-elsinore/",
+    url: "ca/lake-elsinore",
     geo: {
       latitude: 33.666667,
       longitude: -117.316667,
@@ -157,7 +155,7 @@ export const cities: City[] = [
   },
   {
     name: "Lakeview",
-    url: "/ca/lakeview/",
+    url: "ca/lakeview",
     geo: {
       latitude: 33.6175,
       longitude: -114.6,
@@ -165,7 +163,7 @@ export const cities: City[] = [
   },
   {
     name: "March Air Force Base",
-    url: "/ca/march-air-force-base/",
+    url: "ca/march-air-force-base",
     geo: {
       latitude: 33.6175,
       longitude: -114.6,
@@ -173,7 +171,7 @@ export const cities: City[] = [
   },
   {
     name: "Mecca",
-    url: "/ca/mecca/",
+    url: "ca/mecca",
     geo: {
       latitude: 33.6175,
       longitude: -114.6,
@@ -181,7 +179,7 @@ export const cities: City[] = [
   },
   {
     name: "Menifee",
-    url: "/ca/menifee/",
+    url: "ca/menifee",
     geo: {
       latitude: 33.683333,
       longitude: -117.183333,
@@ -189,7 +187,7 @@ export const cities: City[] = [
   },
   {
     name: "Mira Loma",
-    url: "/ca/mira-loma/",
+    url: "ca/mira-loma",
     geo: {
       latitude: 33.933333,
       longitude: -117.566667,
@@ -197,7 +195,7 @@ export const cities: City[] = [
   },
   {
     name: "Moreno Valley",
-    url: "/ca/moreno-valley/",
+    url: "ca/moreno-valley",
     geo: {
       latitude: 33.933333,
       longitude: -117.216667,
@@ -205,7 +203,7 @@ export const cities: City[] = [
   },
   {
     name: "Mountain View",
-    url: "/ca/mountain-view/",
+    url: "ca/mountain-view",
     geo: {
       latitude: 33.6175,
       longitude: -114.6,
@@ -213,7 +211,7 @@ export const cities: City[] = [
   },
   {
     name: "Murrieta",
-    url: "/ca/murrieta/",
+    url: "ca/murrieta",
     geo: {
       latitude: 33.566667,
       longitude: -117.183333,
@@ -221,7 +219,7 @@ export const cities: City[] = [
   },
   {
     name: "Norco",
-    url: "/ca/norco/",
+    url: "ca/norco",
     geo: {
       latitude: 33.933333,
       longitude: -117.566667,
@@ -229,7 +227,7 @@ export const cities: City[] = [
   },
   {
     name: "North Palm Springs",
-    url: "/ca/north-palm-springs/",
+    url: "ca/north-palm-springs",
     geo: {
       latitude: 33.8675,
       longitude: -116.5,
@@ -237,7 +235,7 @@ export const cities: City[] = [
   },
   {
     name: "Nuevo",
-    url: "/ca/nuevo/",
+    url: "ca/nuevo",
     geo: {
       latitude: 33.6175,
       longitude: -114.6,
@@ -245,7 +243,7 @@ export const cities: City[] = [
   },
   {
     name: "Palm Desert",
-    url: "/ca/palm-desert/",
+    url: "ca/palm-desert",
     geo: {
       latitude: 33.72,
       longitude: -116.37,
@@ -253,7 +251,7 @@ export const cities: City[] = [
   },
   {
     name: "Palm Springs",
-    url: "/ca/palm-springs/",
+    url: "ca/palm-springs",
     geo: {
       latitude: 33.83,
       longitude: -116.54,
@@ -261,7 +259,7 @@ export const cities: City[] = [
   },
   {
     name: "Perris",
-    url: "/ca/perris/",
+    url: "ca/perris",
     geo: {
       latitude: 33.783333,
       longitude: -117.23,
@@ -269,7 +267,7 @@ export const cities: City[] = [
   },
   {
     name: "Rancho Mirage",
-    url: "/ca/rancho-mirage/",
+    url: "ca/rancho-mirage",
     geo: {
       latitude: 33.683333,
       longitude: -116.166667,
@@ -277,7 +275,7 @@ export const cities: City[] = [
   },
   {
     name: "Riverside",
-    url: "/ca/riverside/",
+    url: "ca/riverside",
     geo: {
       latitude: 33.95,
       longitude: -117.4,
@@ -285,7 +283,7 @@ export const cities: City[] = [
   },
   {
     name: "San Jacinto",
-    url: "/ca/san-jacinto/",
+    url: "ca/san-jacinto",
     geo: {
       latitude: 33.783333,
       longitude: -116.966667,
@@ -293,7 +291,7 @@ export const cities: City[] = [
   },
   {
     name: "Sun City",
-    url: "/ca/sun-city/",
+    url: "ca/sun-city",
     geo: {
       latitude: 33.6175,
       longitude: -114.6,
@@ -301,7 +299,7 @@ export const cities: City[] = [
   },
   {
     name: "Temecula",
-    url: "/ca/temecula/",
+    url: "ca/temecula",
     geo: {
       latitude: 33.5,
       longitude: -117.12,
@@ -309,7 +307,7 @@ export const cities: City[] = [
   },
   {
     name: "Thermal",
-    url: "/ca/thermal/",
+    url: "ca/thermal",
     geo: {
       latitude: 33.6175,
       longitude: -114.6,
@@ -317,7 +315,7 @@ export const cities: City[] = [
   },
   {
     name: "Thousand Palms",
-    url: "/ca/thousand-palms/",
+    url: "ca/thousand-palms",
     geo: {
       latitude: 33.8675,
       longitude: -116.5,
@@ -325,7 +323,7 @@ export const cities: City[] = [
   },
   {
     name: "White Water",
-    url: "/ca/white-water/",
+    url: "ca/white-water",
     geo: {
       latitude: 33.6175,
       longitude: -114.6,
@@ -333,7 +331,7 @@ export const cities: City[] = [
   },
   {
     name: "Wildomar",
-    url: "/ca/wildomar/",
+    url: "ca/wildomar",
     geo: {
       latitude: 33.6175,
       longitude: -114.6,
@@ -341,7 +339,7 @@ export const cities: City[] = [
   },
   {
     name: "Winchester",
-    url: "/ca/winchester/",
+    url: "ca/winchester",
     geo: {
       latitude: 33.6175,
       longitude: -114.6,

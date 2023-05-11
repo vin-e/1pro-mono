@@ -3,12 +3,12 @@ import type { City } from "@1pro/components";
 export const cities: City[] = [
   {
     name: "Acton",
-    url: "/ca/acton/",
+    url: "ca/acton",
     geo: { latitude: 34.498, longitude: -118.172 },
   },
   {
     name: "Agoura Hills",
-    url: "/ca/agoura-hills/",
+    url: "ca/agoura-hills",
     geo: {
       latitude: 34.153339,
       longitude: -118.761675,
@@ -16,7 +16,7 @@ export const cities: City[] = [
   },
   {
     name: "Alhambra",
-    url: "/ca/alhambra/",
+    url: "ca/alhambra",
     geo: {
       latitude: 34.095287,
       longitude: -118.127014,
@@ -24,12 +24,12 @@ export const cities: City[] = [
   },
   {
     name: "Altadena",
-    url: "/ca/altadena/",
+    url: "ca/altadena",
     geo: { latitude: 34.193, longitude: -118.131 },
   },
   {
     name: "Arcadia",
-    url: "/ca/arcadia/",
+    url: "ca/arcadia",
     geo: {
       latitude: 34.139729,
       longitude: -118.035344,
@@ -37,7 +37,7 @@ export const cities: City[] = [
   },
   {
     name: "Artesia",
-    url: "/ca/artesia/",
+    url: "ca/artesia",
     geo: {
       latitude: 33.865848,
       longitude: -118.079068,
@@ -45,12 +45,12 @@ export const cities: City[] = [
   },
   {
     name: "Avalon",
-    url: "/ca/avalon/",
+    url: "ca/avalon",
     geo: { latitude: 33.342, longitude: -118.321 },
   },
   {
     name: "Azusa",
-    url: "/ca/azusa/",
+    url: "ca/azusa",
     geo: {
       latitude: 34.13362,
       longitude: -117.907562,
@@ -58,7 +58,7 @@ export const cities: City[] = [
   },
   {
     name: "Baldwin Park",
-    url: "/ca/baldwin-park/",
+    url: "ca/baldwin-park",
     geo: {
       latitude: 34.085286,
       longitude: -117.960897,
@@ -66,7 +66,7 @@ export const cities: City[] = [
   },
   {
     name: "Bell",
-    url: "/ca/bell/",
+    url: "ca/bell",
     geo: {
       latitude: 33.974052,
       longitude: -118.176962,
@@ -74,7 +74,7 @@ export const cities: City[] = [
   },
   {
     name: "Bell Gardens",
-    url: "/ca/bell-gardens/",
+    url: "ca/bell-gardens",
     geo: {
       latitude: 33.96529,
       longitude: -118.151458,
@@ -82,7 +82,7 @@ export const cities: City[] = [
   },
   {
     name: "Bellflower",
-    url: "/ca/bellflower/",
+    url: "ca/bellflower",
     geo: {
       latitude: 33.881681,
       longitude: -118.117011,
@@ -90,7 +90,7 @@ export const cities: City[] = [
   },
   {
     name: "Beverly Hills",
-    url: "/ca/beverly-hills/",
+    url: "ca/beverly-hills",
     geo: {
       latitude: 34.07362,
       longitude: -118.400356,
@@ -98,7 +98,7 @@ export const cities: City[] = [
   },
   {
     name: "Bradbury",
-    url: "/ca/bradbury/",
+    url: "ca/bradbury",
     geo: {
       latitude: 34.136119,
       longitude: -117.905339,
@@ -106,7 +106,7 @@ export const cities: City[] = [
   },
   {
     name: "Burbank",
-    url: "/ca/burbank/",
+    url: "ca/burbank",
     geo: {
       latitude: 34.180839,
       longitude: -118.308966,
@@ -114,7 +114,7 @@ export const cities: City[] = [
   },
   {
     name: "Calabasas",
-    url: "/ca/calabasas/",
+    url: "ca/calabasas",
     geo: {
       latitude: 34.136119,
       longitude: -118.668175,
@@ -122,17 +122,17 @@ export const cities: City[] = [
   },
   {
     name: "Canoga Park",
-    url: "/ca/canoga-park/",
+    url: "ca/canoga-park",
     geo: { latitude: 34.201, longitude: -118.601 },
   },
   {
     name: "Canyon Country",
-    url: "/ca/canyon-country/",
+    url: "ca/canyon-country",
     geo: { latitude: 34.425, longitude: -118.443 },
   },
   {
     name: "Carson",
-    url: "/ca/carson/",
+    url: "ca/carson",
     geo: {
       latitude: 33.831674,
       longitude: -118.281693,
@@ -140,12 +140,12 @@ export const cities: City[] = [
   },
   {
     name: "Castaic",
-    url: "/ca/castaic/",
+    url: "ca/castaic",
     geo: { latitude: 34.508, longitude: -118.625 },
   },
   {
     name: "Cerritos",
-    url: "/ca/cerritos/",
+    url: "ca/cerritos",
     geo: {
       latitude: 33.858348,
       longitude: -118.064787,
@@ -153,17 +153,17 @@ export const cities: City[] = [
   },
   {
     name: "Chatsworth",
-    url: "/ca/chatsworth/",
+    url: "ca/chatsworth",
     geo: { latitude: 34.258, longitude: -118.599 },
   },
   {
     name: "City of Industry",
-    url: "/ca/city-of-industry/",
+    url: "ca/city-of-industry",
     geo: { latitude: 34.013, longitude: -117.932 },
   },
   {
     name: "Claremont",
-    url: "/ca/claremont/",
+    url: "ca/claremont",
     geo: {
       latitude: 34.096111,
       longitude: -117.719722,
@@ -171,7 +171,7 @@ export const cities: City[] = [
   },
   {
     name: "Commerce",
-    url: "/ca/commerce/",
+    url: "ca/commerce",
     geo: {
       latitude: 34.016111,
       longitude: -118.1575,
@@ -179,7 +179,7 @@ export const cities: City[] = [
   },
   {
     name: "Compton",
-    url: "/ca/compton/",
+    url: "ca/compton",
     geo: {
       latitude: 33.895849,
       longitude: -118.220071,
@@ -187,7 +187,7 @@ export const cities: City[] = [
   },
   {
     name: "Covina",
-    url: "/ca/covina/",
+    url: "ca/covina",
     geo: {
       latitude: 34.090009,
       longitude: -117.890339,
@@ -195,7 +195,7 @@ export const cities: City[] = [
   },
   {
     name: "Cudahy",
-    url: "/ca/cudahy/",
+    url: "ca/cudahy",
     geo: {
       latitude: 33.967222,
       longitude: -118.184722,
@@ -203,7 +203,7 @@ export const cities: City[] = [
   },
   {
     name: "Culver City",
-    url: "/ca/culver-city/",
+    url: "ca/culver-city",
     geo: {
       latitude: 34.021122,
       longitude: -118.396466,
@@ -211,7 +211,7 @@ export const cities: City[] = [
   },
   {
     name: "Diamond Bar",
-    url: "/ca/diamond-bar/",
+    url: "ca/diamond-bar",
     geo: {
       latitude: 34.028622,
       longitude: -117.810336,
@@ -219,12 +219,12 @@ export const cities: City[] = [
   },
   {
     name: "Dodgertown",
-    url: "/ca/dodgertown/",
+    url: "ca/dodgertown",
     geo: { latitude: 34.136, longitude: -118.668 },
   },
   {
     name: "Downey",
-    url: "/ca/downey/",
+    url: "ca/downey",
     geo: {
       latitude: 33.940292,
       longitude: -118.133159,
@@ -232,7 +232,7 @@ export const cities: City[] = [
   },
   {
     name: "Duarte",
-    url: "/ca/duarte/",
+    url: "ca/duarte",
     geo: {
       latitude: 34.139729,
       longitude: -117.972084,
@@ -240,7 +240,7 @@ export const cities: City[] = [
   },
   {
     name: "El Monte",
-    url: "/ca/el-monte/",
+    url: "ca/el-monte",
     geo: {
       latitude: 34.068622,
       longitude: -118.027567,
@@ -248,7 +248,7 @@ export const cities: City[] = [
   },
   {
     name: "El Segundo",
-    url: "/ca/el-segundo/",
+    url: "ca/el-segundo",
     geo: {
       latitude: 33.919179,
       longitude: -118.416465,
@@ -256,12 +256,12 @@ export const cities: City[] = [
   },
   {
     name: "Encino",
-    url: "/ca/encino/",
+    url: "ca/encino",
     geo: { latitude: 34.161, longitude: -118.542 },
   },
   {
     name: "Gardena",
-    url: "/ca/gardena/",
+    url: "ca/gardena",
     geo: {
       latitude: 33.888348,
       longitude: -118.308966,
@@ -269,7 +269,7 @@ export const cities: City[] = [
   },
   {
     name: "Glendale",
-    url: "/ca/glendale/",
+    url: "ca/glendale",
     geo: {
       latitude: 34.142509,
       longitude: -118.255075,
@@ -277,7 +277,7 @@ export const cities: City[] = [
   },
   {
     name: "Glendora",
-    url: "/ca/glendora/",
+    url: "ca/glendora",
     geo: {
       latitude: 34.136119,
       longitude: -117.865339,
@@ -285,22 +285,22 @@ export const cities: City[] = [
   },
   {
     name: "Granada Hills",
-    url: "/ca/granada-hills/",
+    url: "ca/granada-hills",
     geo: { latitude: 34.29, longitude: -118.5 },
   },
   {
     name: "Hacienda Heights",
-    url: "/ca/hacienda-heights/",
+    url: "ca/hacienda-heights",
     geo: { latitude: 33.99, longitude: -117.96 },
   },
   {
     name: "Harbor City",
-    url: "/ca/harbor-city/",
+    url: "ca/harbor-city",
     geo: { latitude: 33.8, longitude: -118.3 },
   },
   {
     name: "Hawaiian Gardens",
-    url: "/ca/hawaiian-gardens/",
+    url: "ca/hawaiian-gardens",
     geo: {
       latitude: 33.820849,
       longitude: -118.072567,
@@ -308,7 +308,7 @@ export const cities: City[] = [
   },
   {
     name: "Hawthorne",
-    url: "/ca/hawthorne/",
+    url: "ca/hawthorne",
     geo: {
       latitude: 33.916672,
       longitude: -118.352567,
@@ -316,7 +316,7 @@ export const cities: City[] = [
   },
   {
     name: "Hermosa Beach",
-    url: "/ca/hermosa-beach/",
+    url: "ca/hermosa-beach",
     geo: {
       latitude: 33.86835,
       longitude: -118.396466,
@@ -324,7 +324,7 @@ export const cities: City[] = [
   },
   {
     name: "Hidden Hills",
-    url: "/ca/hidden-hills/",
+    url: "ca/hidden-hills",
     geo: {
       latitude: 34.3975,
       longitude: -118.625278,
@@ -332,7 +332,7 @@ export const cities: City[] = [
   },
   {
     name: "Huntington Park",
-    url: "/ca/huntington-park/",
+    url: "ca/huntington-park",
     geo: {
       latitude: 33.981681,
       longitude: -118.225075,
@@ -340,7 +340,7 @@ export const cities: City[] = [
   },
   {
     name: "Industry",
-    url: "/ca/industry/",
+    url: "ca/industry",
     geo: {
       latitude: 34.013622,
       longitude: -117.946336,
@@ -348,7 +348,7 @@ export const cities: City[] = [
   },
   {
     name: "Inglewood",
-    url: "/ca/inglewood/",
+    url: "ca/inglewood",
     geo: {
       latitude: 33.961681,
       longitude: -118.353348,
@@ -356,7 +356,7 @@ export const cities: City[] = [
   },
   {
     name: "Irwindale",
-    url: "/ca/irwindale/",
+    url: "ca/irwindale",
     geo: {
       latitude: 34.136119,
       longitude: -117.865339,
@@ -364,7 +364,7 @@ export const cities: City[] = [
   },
   {
     name: "La Canada Flintridge",
-    url: "/ca/la-canada-flintridge/",
+    url: "ca/la-canada-flintridge",
     geo: {
       latitude: 34.201389,
       longitude: -118.2075,
@@ -372,12 +372,12 @@ export const cities: City[] = [
   },
   {
     name: "La Crescenta",
-    url: "/ca/la-crescenta/",
+    url: "ca/la-crescenta",
     geo: { latitude: 34.2, longitude: -118.25 },
   },
   {
     name: "La Habra Heights",
-    url: "/ca/la-habra-heights/",
+    url: "ca/la-habra-heights",
     geo: {
       latitude: 33.9625,
       longitude: -117.946111,
@@ -385,7 +385,7 @@ export const cities: City[] = [
   },
   {
     name: "La Mirada",
-    url: "/ca/la-mirada/",
+    url: "ca/la-mirada",
     geo: {
       latitude: 33.91735,
       longitude: -118.012567,
@@ -393,7 +393,7 @@ export const cities: City[] = [
   },
   {
     name: "La Puente",
-    url: "/ca/la-puente/",
+    url: "ca/la-puente",
     geo: {
       latitude: 34.020349,
       longitude: -117.949508,
@@ -401,7 +401,7 @@ export const cities: City[] = [
   },
   {
     name: "La Verne",
-    url: "/ca/la-verne/",
+    url: "ca/la-verne",
     geo: {
       latitude: 34.100009,
       longitude: -117.767084,
@@ -409,12 +409,12 @@ export const cities: City[] = [
   },
   {
     name: "Lake Hughes",
-    url: "/ca/lake-hughes/",
+    url: "ca/lake-hughes",
     geo: { latitude: 34.7, longitude: -118.9 },
   },
   {
     name: "Lakewood",
-    url: "/ca/lakewood/",
+    url: "ca/lakewood",
     geo: {
       latitude: 33.853348,
       longitude: -118.133159,
@@ -422,7 +422,7 @@ export const cities: City[] = [
   },
   {
     name: "Lancaster",
-    url: "/ca/lancaster/",
+    url: "ca/lancaster",
     geo: {
       latitude: 34.686111,
       longitude: -118.154167,
@@ -430,7 +430,7 @@ export const cities: City[] = [
   },
   {
     name: "Lawndale",
-    url: "/ca/lawndale/",
+    url: "ca/lawndale",
     geo: {
       latitude: 33.887349,
       longitude: -118.352567,
@@ -438,17 +438,17 @@ export const cities: City[] = [
   },
   {
     name: "Littlerock",
-    url: "/ca/littlerock/",
+    url: "ca/littlerock",
     geo: { latitude: 34.6, longitude: -117.9 },
   },
   {
     name: "Llano",
-    url: "/ca/llano/",
+    url: "ca/llano",
     geo: { latitude: 34.8, longitude: -117.9 },
   },
   {
     name: "Lomita",
-    url: "/ca/lomita/",
+    url: "ca/lomita",
     geo: {
       latitude: 33.792349,
       longitude: -118.315075,
@@ -456,7 +456,7 @@ export const cities: City[] = [
   },
   {
     name: "Long Beach",
-    url: "/ca/long-beach/",
+    url: "ca/long-beach",
     geo: {
       latitude: 33.766681,
       longitude: -118.189339,
@@ -464,7 +464,7 @@ export const cities: City[] = [
   },
   {
     name: "Los Angeles",
-    url: "/ca/los-angeles/",
+    url: "ca/los-angeles",
     geo: {
       latitude: 34.052222,
       longitude: -118.242778,
@@ -472,7 +472,7 @@ export const cities: City[] = [
   },
   {
     name: "Lynwood",
-    url: "/ca/lynwood/",
+    url: "ca/lynwood",
     geo: {
       latitude: 33.930849,
       longitude: -118.211075,
@@ -480,7 +480,7 @@ export const cities: City[] = [
   },
   {
     name: "Malibu",
-    url: "/ca/malibu/",
+    url: "ca/malibu",
     geo: {
       latitude: 34.0375,
       longitude: -118.688333,
@@ -488,7 +488,7 @@ export const cities: City[] = [
   },
   {
     name: "Manhattan Beach",
-    url: "/ca/manhattan-beach/",
+    url: "ca/manhattan-beach",
     geo: {
       latitude: 33.88435,
       longitude: -118.410075,
@@ -496,7 +496,7 @@ export const cities: City[] = [
   },
   {
     name: "Maywood",
-    url: "/ca/maywood/",
+    url: "ca/maywood",
     geo: {
       latitude: 33.986681,
       longitude: -118.185075,
@@ -504,7 +504,7 @@ export const cities: City[] = [
   },
   {
     name: "Monrovia",
-    url: "/ca/monrovia/",
+    url: "ca/monrovia",
     geo: {
       latitude: 34.144722,
       longitude: -118.001389,
@@ -512,7 +512,7 @@ export const cities: City[] = [
   },
   {
     name: "Montebello",
-    url: "/ca/montebello/",
+    url: "ca/montebello",
     geo: {
       latitude: 34.016681,
       longitude: -118.113159,
@@ -520,7 +520,7 @@ export const cities: City[] = [
   },
   {
     name: "Monterey Park",
-    url: "/ca/monterey-park/",
+    url: "ca/monterey-park",
     geo: {
       latitude: 34.062349,
       longitude: -118.122567,
@@ -528,7 +528,7 @@ export const cities: City[] = [
   },
   {
     name: "Montrose",
-    url: "/ca/montrose/",
+    url: "ca/montrose",
     geo: {
       latitude: 34.183333,
       longitude: -118.116667,
@@ -536,7 +536,7 @@ export const cities: City[] = [
   },
   {
     name: "Mount Wilson",
-    url: "/ca/mount-wilson/",
+    url: "ca/mount-wilson",
     geo: {
       latitude: 34.233333,
       longitude: -118.05,
@@ -544,7 +544,7 @@ export const cities: City[] = [
   },
   {
     name: "Mt Baldy",
-    url: "/ca/mt-baldy/",
+    url: "ca/mt-baldy",
     geo: {
       latitude: 34.25,
       longitude: -117.883333,
@@ -552,7 +552,7 @@ export const cities: City[] = [
   },
   {
     name: "Newhall",
-    url: "/ca/newhall/",
+    url: "ca/newhall",
     geo: {
       latitude: 34.383333,
       longitude: -118.533333,
@@ -560,7 +560,7 @@ export const cities: City[] = [
   },
   {
     name: "North Hills",
-    url: "/ca/north-hills/",
+    url: "ca/north-hills",
     geo: {
       latitude: 34.2,
       longitude: -118.45,
@@ -568,7 +568,7 @@ export const cities: City[] = [
   },
   {
     name: "North Hollywood",
-    url: "/ca/north-hollywood/",
+    url: "ca/north-hollywood",
     geo: {
       latitude: 34.166667,
       longitude: -118.383333,
@@ -576,7 +576,7 @@ export const cities: City[] = [
   },
   {
     name: "Northridge",
-    url: "/ca/northridge/",
+    url: "ca/northridge",
     geo: {
       latitude: 34.25,
       longitude: -118.533333,
@@ -584,7 +584,7 @@ export const cities: City[] = [
   },
   {
     name: "Norwalk",
-    url: "/ca/norwalk/",
+    url: "ca/norwalk",
     geo: {
       latitude: 33.902222,
       longitude: -118.081944,
@@ -592,7 +592,7 @@ export const cities: City[] = [
   },
   {
     name: "Pacific Palisades",
-    url: "/ca/pacific-palisades/",
+    url: "ca/pacific-palisades",
     geo: {
       latitude: 34.05,
       longitude: -118.533333,
@@ -600,7 +600,7 @@ export const cities: City[] = [
   },
   {
     name: "Pacoima",
-    url: "/ca/pacoima/",
+    url: "ca/pacoima",
     geo: {
       latitude: 34.266667,
       longitude: -118.433333,
@@ -608,7 +608,7 @@ export const cities: City[] = [
   },
   {
     name: "Palmdale",
-    url: "/ca/palmdale/",
+    url: "ca/palmdale",
     geo: {
       latitude: 34.579167,
       longitude: -118.116667,
@@ -616,7 +616,7 @@ export const cities: City[] = [
   },
   {
     name: "Palos Verdes Estates",
-    url: "/ca/palos-verdes-estates/",
+    url: "ca/palos-verdes-estates",
     geo: {
       latitude: 33.786111,
       longitude: -118.3875,
@@ -624,7 +624,7 @@ export const cities: City[] = [
   },
   {
     name: "Palos Verdes Peninsula",
-    url: "/ca/palos-verdes-peninsula/",
+    url: "ca/palos-verdes-peninsula",
     geo: {
       latitude: 33.75,
       longitude: -118.366667,
@@ -632,7 +632,7 @@ export const cities: City[] = [
   },
   {
     name: "Panorama City",
-    url: "/ca/panorama-city/",
+    url: "ca/panorama-city",
     geo: {
       latitude: 34.216667,
       longitude: -118.45,
@@ -640,7 +640,7 @@ export const cities: City[] = [
   },
   {
     name: "Paramount",
-    url: "/ca/paramount/",
+    url: "ca/paramount",
     geo: {
       latitude: 33.88935,
       longitude: -118.159339,
@@ -648,7 +648,7 @@ export const cities: City[] = [
   },
   {
     name: "Pasadena",
-    url: "/ca/pasadena/",
+    url: "ca/pasadena",
     geo: {
       latitude: 34.147778,
       longitude: -118.144444,
@@ -656,7 +656,7 @@ export const cities: City[] = [
   },
   {
     name: "Pearblossom",
-    url: "/ca/pearblossom/",
+    url: "ca/pearblossom",
     geo: {
       latitude: 34.466667,
       longitude: -117.916667,
@@ -664,7 +664,7 @@ export const cities: City[] = [
   },
   {
     name: "Pico Rivera",
-    url: "/ca/pico-rivera/",
+    url: "ca/pico-rivera",
     geo: {
       latitude: 33.983348,
       longitude: -118.096075,
@@ -672,7 +672,7 @@ export const cities: City[] = [
   },
   {
     name: "Playa Del Rey",
-    url: "/ca/playa-del-rey/",
+    url: "ca/playa-del-rey",
     geo: {
       latitude: 33.95,
       longitude: -118.433333,
@@ -680,7 +680,7 @@ export const cities: City[] = [
   },
   {
     name: "Pomona",
-    url: "/ca/pomona/",
+    url: "ca/pomona",
     geo: {
       latitude: 34.055349,
       longitude: -117.752084,
@@ -688,7 +688,7 @@ export const cities: City[] = [
   },
   {
     name: "Rancho Palos Verdes",
-    url: "/ca/rancho-palos-verdes/",
+    url: "ca/rancho-palos-verdes",
     geo: {
       latitude: 33.744722,
       longitude: -118.3875,
@@ -696,7 +696,7 @@ export const cities: City[] = [
   },
   {
     name: "Redondo Beach",
-    url: "/ca/redondo-beach/",
+    url: "ca/redondo-beach",
     geo: {
       latitude: 33.84935,
       longitude: -118.388075,
@@ -704,7 +704,7 @@ export const cities: City[] = [
   },
   {
     name: "Reseda",
-    url: "/ca/reseda/",
+    url: "ca/reseda",
     geo: {
       latitude: 34.2,
       longitude: -118.533333,
@@ -712,7 +712,7 @@ export const cities: City[] = [
   },
   {
     name: "Rolling Hills",
-    url: "/ca/rolling-hills/",
+    url: "ca/rolling-hills",
     geo: {
       latitude: 33.7875,
       longitude: -118.341667,
@@ -720,7 +720,7 @@ export const cities: City[] = [
   },
   {
     name: "Rolling Hills Estates",
-    url: "/ca/rolling-hills-estates/",
+    url: "ca/rolling-hills-estates",
     geo: {
       latitude: 33.780278,
       longitude: -118.359722,
@@ -728,7 +728,7 @@ export const cities: City[] = [
   },
   {
     name: "Rosemead",
-    url: "/ca/rosemead/",
+    url: "ca/rosemead",
     geo: {
       latitude: 34.080349,
       longitude: -118.072567,
@@ -736,7 +736,7 @@ export const cities: City[] = [
   },
   {
     name: "Rowland Heights",
-    url: "/ca/rowland-heights/",
+    url: "ca/rowland-heights",
     geo: {
       latitude: 33.983333,
       longitude: -117.9,
@@ -744,7 +744,7 @@ export const cities: City[] = [
   },
   {
     name: "San Dimas",
-    url: "/ca/san-dimas/",
+    url: "ca/san-dimas",
     geo: {
       latitude: 34.106389,
       longitude: -117.816667,
@@ -752,7 +752,7 @@ export const cities: City[] = [
   },
   {
     name: "San Fernando",
-    url: "/ca/san-fernando/",
+    url: "ca/san-fernando",
     geo: {
       latitude: 34.283889,
       longitude: -118.439167,
@@ -760,7 +760,7 @@ export const cities: City[] = [
   },
   {
     name: "San Gabriel",
-    url: "/ca/san-gabriel/",
+    url: "ca/san-gabriel",
     geo: {
       latitude: 34.096111,
       longitude: -118.105,
@@ -768,7 +768,7 @@ export const cities: City[] = [
   },
   {
     name: "San Marino",
-    url: "/ca/san-marino/",
+    url: "ca/san-marino",
     geo: {
       latitude: 34.121111,
       longitude: -118.116667,
@@ -776,7 +776,7 @@ export const cities: City[] = [
   },
   {
     name: "San Pedro",
-    url: "/ca/san-pedro/",
+    url: "ca/san-pedro",
     geo: {
       latitude: 33.733333,
       longitude: -118.283333,
@@ -784,7 +784,7 @@ export const cities: City[] = [
   },
   {
     name: "Santa Clarita",
-    url: "/ca/santa-clarita/",
+    url: "ca/santa-clarita",
     geo: {
       latitude: 34.391667,
       longitude: -118.542778,
@@ -792,7 +792,7 @@ export const cities: City[] = [
   },
   {
     name: "Santa Fe Springs",
-    url: "/ca/santa-fe-springs/",
+    url: "ca/santa-fe-springs",
     geo: {
       latitude: 33.931681,
       longitude: -118.084075,
@@ -800,7 +800,7 @@ export const cities: City[] = [
   },
   {
     name: "Santa Monica",
-    url: "/ca/santa-monica/",
+    url: "ca/santa-monica",
     geo: {
       latitude: 34.019444,
       longitude: -118.491667,
@@ -808,7 +808,7 @@ export const cities: City[] = [
   },
   {
     name: "Sherman Oaks",
-    url: "/ca/sherman-oaks/",
+    url: "ca/sherman-oaks",
     geo: {
       latitude: 34.15,
       longitude: -118.45,
@@ -816,7 +816,7 @@ export const cities: City[] = [
   },
   {
     name: "Sierra Madre",
-    url: "/ca/sierra-madre/",
+    url: "ca/sierra-madre",
     geo: {
       latitude: 34.161111,
       longitude: -118.052778,
@@ -824,7 +824,7 @@ export const cities: City[] = [
   },
   {
     name: "Signal Hill",
-    url: "/ca/signal-hill/",
+    url: "ca/signal-hill",
     geo: {
       latitude: 33.804722,
       longitude: -118.1675,
@@ -832,7 +832,7 @@ export const cities: City[] = [
   },
   {
     name: "South El Monte",
-    url: "/ca/south-el-monte/",
+    url: "ca/south-el-monte",
     geo: {
       latitude: 34.056681,
       longitude: -118.037567,
@@ -840,7 +840,7 @@ export const cities: City[] = [
   },
   {
     name: "South Gate",
-    url: "/ca/south-gate/",
+    url: "ca/south-gate",
     geo: {
       latitude: 33.95435,
       longitude: -118.212075,
@@ -848,7 +848,7 @@ export const cities: City[] = [
   },
   {
     name: "South Pasadena",
-    url: "/ca/south-pasadena/",
+    url: "ca/south-pasadena",
     geo: {
       latitude: 34.116111,
       longitude: -118.158333,
@@ -856,7 +856,7 @@ export const cities: City[] = [
   },
   {
     name: "Stevenson Ranch",
-    url: "/ca/stevenson-ranch/",
+    url: "ca/stevenson-ranch",
     geo: {
       latitude: 34.4,
       longitude: -118.583333,
@@ -864,7 +864,7 @@ export const cities: City[] = [
   },
   {
     name: "Studio City",
-    url: "/ca/studio-city/",
+    url: "ca/studio-city",
     geo: {
       latitude: 34.133333,
       longitude: -118.366667,
@@ -872,7 +872,7 @@ export const cities: City[] = [
   },
   {
     name: "Sun Valley",
-    url: "/ca/sun-valley/",
+    url: "ca/sun-valley",
     geo: {
       latitude: 34.233333,
       longitude: -118.3,
@@ -880,7 +880,7 @@ export const cities: City[] = [
   },
   {
     name: "Sunland",
-    url: "/ca/sunland/",
+    url: "ca/sunland",
     geo: {
       latitude: 34.266667,
       longitude: -118.3,
@@ -888,7 +888,7 @@ export const cities: City[] = [
   },
   {
     name: "Sylmar",
-    url: "/ca/sylmar/",
+    url: "ca/sylmar",
     geo: {
       latitude: 34.3,
       longitude: -118.3,
@@ -896,7 +896,7 @@ export const cities: City[] = [
   },
   {
     name: "Tarzana",
-    url: "/ca/tarzana/",
+    url: "ca/tarzana",
     geo: {
       latitude: 34.166667,
       longitude: -118.533333,
@@ -904,7 +904,7 @@ export const cities: City[] = [
   },
   {
     name: "Temple City",
-    url: "/ca/temple-city/",
+    url: "ca/temple-city",
     geo: {
       latitude: 34.102778,
       longitude: -118.0575,
@@ -912,7 +912,7 @@ export const cities: City[] = [
   },
   {
     name: "Toluca Lake",
-    url: "/ca/toluca-lake/",
+    url: "ca/toluca-lake",
     geo: {
       latitude: 34.166667,
       longitude: -118.366667,
@@ -920,7 +920,7 @@ export const cities: City[] = [
   },
   {
     name: "Topanga",
-    url: "/ca/topanga/",
+    url: "ca/topanga",
     geo: {
       latitude: 34.05,
       longitude: -118.566667,
@@ -928,7 +928,7 @@ export const cities: City[] = [
   },
   {
     name: "Torrance",
-    url: "/ca/torrance/",
+    url: "ca/torrance",
     geo: {
       latitude: 33.835278,
       longitude: -118.340278,
@@ -936,7 +936,7 @@ export const cities: City[] = [
   },
   {
     name: "Tujunga",
-    url: "/ca/tujunga/",
+    url: "ca/tujunga",
     geo: {
       latitude: 34.266667,
       longitude: -118.283333,
@@ -944,7 +944,7 @@ export const cities: City[] = [
   },
   {
     name: "Universal City",
-    url: "/ca/universal-city/",
+    url: "ca/universal-city",
     geo: {
       latitude: 34.133333,
       longitude: -118.35,
@@ -952,23 +952,15 @@ export const cities: City[] = [
   },
   {
     name: "Valinda",
-    url: "/ca/valinda/",
+    url: "ca/valinda",
     geo: {
       latitude: 34.116667,
       longitude: -117.983333,
     },
   },
-  // {
-  //   name: "Valle Vista",
-  //   url: "/ca/valle-vista/",
-  //   geo: {
-  //     latitude: 34.116667,
-  //     longitude: -117.983333,
-  //   },
-  // },
   {
     name: "Valley Village",
-    url: "/ca/valley-village/",
+    url: "ca/valley-village",
     geo: {
       latitude: 34.166667,
       longitude: -118.383333,
@@ -976,7 +968,7 @@ export const cities: City[] = [
   },
   {
     name: "Valyermo",
-    url: "/ca/valyermo/",
+    url: "ca/valyermo",
     geo: {
       latitude: 34.116667,
       longitude: -117.983333,
@@ -984,7 +976,7 @@ export const cities: City[] = [
   },
   {
     name: "Van Nuys",
-    url: "/ca/van-nuys/",
+    url: "ca/van-nuys",
     geo: {
       latitude: 34.2,
       longitude: -118.45,
@@ -992,7 +984,7 @@ export const cities: City[] = [
   },
   {
     name: "Venice",
-    url: "/ca/venice/",
+    url: "ca/venice",
     geo: {
       latitude: 33.983333,
       longitude: -118.466667,
@@ -1000,7 +992,7 @@ export const cities: City[] = [
   },
   {
     name: "Verdugo City",
-    url: "/ca/verdugo-city/",
+    url: "ca/verdugo-city",
     geo: {
       latitude: 34.266667,
       longitude: -118.283333,
@@ -1008,7 +1000,7 @@ export const cities: City[] = [
   },
   {
     name: "Vernon",
-    url: "/ca/vernon/",
+    url: "ca/vernon",
     geo: {
       latitude: 34.116667,
       longitude: -117.983333,
@@ -1016,7 +1008,7 @@ export const cities: City[] = [
   },
   {
     name: "Walnut",
-    url: "/ca/walnut/",
+    url: "ca/walnut",
     geo: {
       latitude: 34.033333,
       longitude: -117.85,
@@ -1024,7 +1016,7 @@ export const cities: City[] = [
   },
   {
     name: "West Covina",
-    url: "/ca/west-covina/",
+    url: "ca/west-covina",
     geo: {
       latitude: 34.05,
       longitude: -117.916667,
@@ -1032,7 +1024,7 @@ export const cities: City[] = [
   },
   {
     name: "West Hills",
-    url: "/ca/west-hills/",
+    url: "ca/west-hills",
     geo: {
       latitude: 34.2,
       longitude: -118.6,
@@ -1040,7 +1032,7 @@ export const cities: City[] = [
   },
   {
     name: "West Hollywood",
-    url: "/ca/west-hollywood/",
+    url: "ca/west-hollywood",
     geo: {
       latitude: 34.083333,
       longitude: -118.366667,
@@ -1048,7 +1040,7 @@ export const cities: City[] = [
   },
   {
     name: "Westlake Village",
-    url: "/ca/westlake-village/",
+    url: "ca/westlake-village",
     geo: {
       latitude: 34.15,
       longitude: -118.8,
@@ -1056,7 +1048,7 @@ export const cities: City[] = [
   },
   {
     name: "Whittier",
-    url: "/ca/whittier/",
+    url: "ca/whittier",
     geo: {
       latitude: 33.983333,
       longitude: -118.033333,
@@ -1064,7 +1056,7 @@ export const cities: City[] = [
   },
   {
     name: "Wilmington",
-    url: "/ca/wilmington/",
+    url: "ca/wilmington",
     geo: {
       latitude: 33.783333,
       longitude: -118.266667,
@@ -1072,7 +1064,7 @@ export const cities: City[] = [
   },
   {
     name: "Winnetka",
-    url: "/ca/winnetka/",
+    url: "ca/winnetka",
     geo: {
       latitude: 34.166667,
       longitude: -118.566667,
@@ -1080,7 +1072,7 @@ export const cities: City[] = [
   },
   {
     name: "Woodland Hills",
-    url: "/ca/woodland-hills/",
+    url: "ca/woodland-hills",
     geo: {
       latitude: 34.166667,
       longitude: -118.6,

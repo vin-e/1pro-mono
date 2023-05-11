@@ -3,7 +3,7 @@ import type { City } from "@1pro/components";
 export const cities: City[] = [
   {
     name: "Aliso Viejo",
-    url: "/ca/aliso-viejo/",
+    url: "ca/aliso-viejo",
     geo: {
       latitude: 33.567,
       longitude: -117.725,
@@ -11,7 +11,7 @@ export const cities: City[] = [
   },
   {
     name: "Anaheim",
-    url: "/ca/anaheim/",
+    url: "ca/anaheim",
     geo: {
       latitude: 33.8352932,
       longitude: -117.9145036,
@@ -19,7 +19,7 @@ export const cities: City[] = [
   },
   {
     name: "Atwood",
-    url: "/ca/atwood/",
+    url: "ca/atwood",
     geo: {
       latitude: 33.567,
       longitude: -117.725,
@@ -27,7 +27,7 @@ export const cities: City[] = [
   },
   {
     name: "Brea",
-    url: "/ca/brea/",
+    url: "ca/brea",
     geo: {
       latitude: 33.9166805,
       longitude: -117.9000604,
@@ -35,7 +35,7 @@ export const cities: City[] = [
   },
   {
     name: "Buena Park",
-    url: "/ca/buena-park/",
+    url: "ca/buena-park",
     geo: {
       latitude: 33.8675143,
       longitude: -117.9981181,
@@ -43,7 +43,7 @@ export const cities: City[] = [
   },
   {
     name: "Capistrano Beach",
-    url: "/ca/capistrano-beach/",
+    url: "ca/capistrano-beach",
     geo: {
       latitude: 33.567,
       longitude: -117.725,
@@ -51,7 +51,7 @@ export const cities: City[] = [
   },
   {
     name: "Corona del Mar",
-    url: "/ca/corona-del-mar/",
+    url: "ca/corona-del-mar",
     geo: {
       latitude: 33.567,
       longitude: -117.725,
@@ -59,7 +59,7 @@ export const cities: City[] = [
   },
   {
     name: "Costa Mesa",
-    url: "/ca/costa-mesa/",
+    url: "ca/costa-mesa",
     geo: {
       latitude: 33.6411316,
       longitude: -117.9186689,
@@ -67,7 +67,7 @@ export const cities: City[] = [
   },
   {
     name: "Cypress",
-    url: "/ca/cypress/",
+    url: "ca/cypress",
     geo: {
       latitude: 33.8169599,
       longitude: -118.0372851,
@@ -75,7 +75,7 @@ export const cities: City[] = [
   },
   {
     name: "Dana Point",
-    url: "/ca/dana-point/",
+    url: "ca/dana-point",
     geo: {
       latitude: 33.4669728,
       longitude: -117.6981073,
@@ -83,7 +83,7 @@ export const cities: City[] = [
   },
   {
     name: "East Irvine",
-    url: "/ca/east-irvine/",
+    url: "ca/east-irvine",
     geo: {
       latitude: 33.567,
       longitude: -117.725,
@@ -91,7 +91,7 @@ export const cities: City[] = [
   },
   {
     name: "El Toro",
-    url: "/ca/el-toro/",
+    url: "ca/el-toro",
     geo: {
       latitude: 33.567,
       longitude: -117.725,
@@ -99,7 +99,7 @@ export const cities: City[] = [
   },
   {
     name: "Foothill Ranch",
-    url: "/ca/foothill-ranch/",
+    url: "ca/foothill-ranch",
     geo: {
       latitude: 33.567,
       longitude: -117.725,
@@ -107,7 +107,7 @@ export const cities: City[] = [
   },
   {
     name: "Fountain Valley",
-    url: "/ca/fountain-valley/",
+    url: "ca/fountain-valley",
     geo: {
       latitude: 33.7091847,
       longitude: -117.9536697,
@@ -115,7 +115,7 @@ export const cities: City[] = [
   },
   {
     name: "Fullerton",
-    url: "/ca/fullerton/",
+    url: "ca/fullerton",
     geo: {
       latitude: 33.8703596,
       longitude: -117.9242966,
@@ -123,7 +123,7 @@ export const cities: City[] = [
   },
   {
     name: "Garden Grove",
-    url: "/ca/garden-grove/",
+    url: "ca/garden-grove",
     geo: {
       latitude: 33.7739053,
       longitude: -117.9414477,
@@ -131,7 +131,7 @@ export const cities: City[] = [
   },
   {
     name: "Huntington Beach",
-    url: "/ca/huntington-beach/",
+    url: "ca/huntington-beach",
     geo: {
       latitude: 33.660297,
       longitude: -117.9992265,
@@ -139,7 +139,7 @@ export const cities: City[] = [
   },
   {
     name: "Irvine",
-    url: "/ca/irvine/",
+    url: "ca/irvine",
     geo: {
       latitude: 33.6839473,
       longitude: -117.7946942,
@@ -147,7 +147,7 @@ export const cities: City[] = [
   },
   {
     name: "La Habra",
-    url: "/ca/la-habra/",
+    url: "ca/la-habra",
     geo: {
       latitude: 33.9319578,
       longitude: -117.9461734,
@@ -155,7 +155,7 @@ export const cities: City[] = [
   },
   {
     name: "La Palma",
-    url: "/ca/la-palma/",
+    url: "ca/la-palma",
     geo: {
       latitude: 33.8470595,
       longitude: -118.0466912,
@@ -163,7 +163,7 @@ export const cities: City[] = [
   },
   {
     name: "Laguna Beach",
-    url: "/ca/laguna-beach/",
+    url: "ca/laguna-beach",
     geo: {
       latitude: 33.5422361,
       longitude: -117.7851149,
@@ -171,7 +171,7 @@ export const cities: City[] = [
   },
   {
     name: "Laguna Beach",
-    url: "/ca/laguna-beach/",
+    url: "ca/laguna-beach",
     geo: {
       latitude: 33.5422361,
       longitude: -117.7851149,
@@ -179,7 +179,7 @@ export const cities: City[] = [
   },
   {
     name: "Laguna Hills",
-    url: "/ca/laguna-hills/",
+    url: "ca/laguna-hills",
     geo: {
       latitude: 33.6100193,
       longitude: -117.7256083,
@@ -187,23 +187,15 @@ export const cities: City[] = [
   },
   {
     name: "Laguna Niguel",
-    url: "/ca/laguna-niguel/",
+    url: "ca/laguna-niguel",
     geo: {
       latitude: 33.5225261,
       longitude: -117.7075526,
     },
   },
-  // {
-  //   name: "Laguna Woods",
-  //   url: "/ca/laguna-woods/",
-  //   geo: {
-  //     latitude: 33.6189101,
-  //     longitude: -117.7256083,
-  //   },
-  // },
   {
     name: "Lake Forest",
-    url: "/ca/lake-forest/",
+    url: "ca/lake-forest",
     geo: {
       latitude: 33.6469661,
       longitude: -117.689218,
@@ -211,7 +203,7 @@ export const cities: City[] = [
   },
   {
     name: "Los Alamitos",
-    url: "/ca/los-alamitos/",
+    url: "ca/los-alamitos",
     geo: {
       latitude: 33.8036759,
       longitude: -118.067846,
@@ -219,7 +211,7 @@ export const cities: City[] = [
   },
   {
     name: "Midway City",
-    url: "/ca/midway-city/",
+    url: "ca/midway-city",
     geo: {
       latitude: 33.7214848,
       longitude: -117.9981181,
@@ -227,7 +219,7 @@ export const cities: City[] = [
   },
   {
     name: "Mission Viejo",
-    url: "/ca/mission-viejo/",
+    url: "ca/mission-viejo",
     geo: {
       latitude: 33.6000232,
       longitude: -117.6719953,
@@ -235,7 +227,7 @@ export const cities: City[] = [
   },
   {
     name: "Newport Beach",
-    url: "/ca/newport-beach/",
+    url: "ca/newport-beach",
     geo: {
       latitude: 33.6189101,
       longitude: -117.9289469,
@@ -243,7 +235,7 @@ export const cities: City[] = [
   },
   {
     name: "Orange",
-    url: "/ca/orange/",
+    url: "ca/orange",
     geo: {
       latitude: 33.7877944,
       longitude: -117.8531119,
@@ -251,7 +243,7 @@ export const cities: City[] = [
   },
   {
     name: "Placentia",
-    url: "/ca/placentia/",
+    url: "ca/placentia",
     geo: {
       latitude: 33.8722371,
       longitude: -117.8703363,
@@ -259,7 +251,7 @@ export const cities: City[] = [
   },
   {
     name: "Rancho Santa Margarita",
-    url: "/ca/rancho-santa-margarita/",
+    url: "ca/rancho-santa-margarita",
     geo: {
       latitude: 33.640855,
       longitude: -117.603104,
@@ -267,7 +259,7 @@ export const cities: City[] = [
   },
   {
     name: "San Clemente",
-    url: "/ca/san-clemente/",
+    url: "ca/san-clemente",
     geo: {
       latitude: 33.4269728,
       longitude: -117.6119925,
@@ -275,7 +267,7 @@ export const cities: City[] = [
   },
   {
     name: "San Juan Capistrano",
-    url: "/ca/san-juan-capistrano/",
+    url: "ca/san-juan-capistrano",
     geo: {
       latitude: 33.5016924,
       longitude: -117.6625509,
@@ -283,7 +275,7 @@ export const cities: City[] = [
   },
   {
     name: "Santa Ana",
-    url: "/ca/santa-ana/",
+    url: "ca/santa-ana",
     geo: {
       latitude: 33.7455731,
       longitude: -117.8678338,
@@ -291,7 +283,7 @@ export const cities: City[] = [
   },
   {
     name: "Seal Beach",
-    url: "/ca/seal-beach/",
+    url: "ca/seal-beach",
     geo: {
       latitude: 33.7433523,
       longitude: -118.1046919,
@@ -299,7 +291,7 @@ export const cities: City[] = [
   },
   {
     name: "Silverado",
-    url: "/ca/silverado/",
+    url: "ca/silverado",
     geo: {
       latitude: 33.660297,
       longitude: -117.9992265,
@@ -307,7 +299,7 @@ export const cities: City[] = [
   },
   {
     name: "Stanton",
-    url: "/ca/stanton/",
+    url: "ca/stanton",
     geo: {
       latitude: 33.8025155,
       longitude: -117.9931165,
@@ -315,7 +307,7 @@ export const cities: City[] = [
   },
   {
     name: "Sunset Beach",
-    url: "/ca/sunset-beach/",
+    url: "ca/sunset-beach",
     geo: {
       latitude: 33.6189101,
       longitude: -117.7256083,
@@ -323,7 +315,7 @@ export const cities: City[] = [
   },
   {
     name: "Surfside",
-    url: "/ca/surfside/",
+    url: "ca/surfside",
     geo: {
       latitude: 33.6189101,
       longitude: -117.7256083,
@@ -331,7 +323,7 @@ export const cities: City[] = [
   },
   {
     name: "Trabuco Canyon",
-    url: "/ca/trabuco-canyon/",
+    url: "ca/trabuco-canyon",
     geo: {
       latitude: 33.6189101,
       longitude: -117.7256083,
@@ -339,7 +331,7 @@ export const cities: City[] = [
   },
   {
     name: "Tustin",
-    url: "/ca/tustin/",
+    url: "ca/tustin",
     geo: {
       latitude: 33.7454725,
       longitude: -117.8265049,
@@ -347,7 +339,7 @@ export const cities: City[] = [
   },
   {
     name: "Villa Park",
-    url: "/ca/villa-park/",
+    url: "ca/villa-park",
     geo: {
       latitude: 33.8125102,
       longitude: -117.8131125,
@@ -355,7 +347,7 @@ export const cities: City[] = [
   },
   {
     name: "Westminster",
-    url: "/ca/westminster/",
+    url: "ca/westminster",
     geo: {
       latitude: 33.7513419,
       longitude: -117.9931565,
@@ -363,7 +355,7 @@ export const cities: City[] = [
   },
   {
     name: "Yorba Linda",
-    url: "/ca/yorba-linda",
+    url: "ca/yorba-lind",
     geo: {
       latitude: 33.8886259,
       longitude: -117.8131125,

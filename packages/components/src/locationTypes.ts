@@ -36,4 +36,5 @@ export const PAGE_TYPES = {
   STATE: "state",
   COUNTY: "county",
   CITY: "city",
+  SERVICE: "service"
 };

@@ -1,15 +1,54 @@
 ---
-import { CTASection } from "@1pro/components";
+import { CTASection } from '@1pro/components';
 import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Welcome to Astro.">
 	<main>
-		<div class="container mx-auto py-8">
-			<h1 class="text-4xl font-bold">Welcome to Astro.</h1>
-			<p class="text-lg">This is a starter template for Astro. It includes a basic layout and some common components.</p>
-			<p class="text-lg">To get started, edit <code>src/pages/index.astro</code> and save to reload.</p>
-			<p class="text-lg">For more information, check out the <a href="https://docs.astro.build" class="underline">documentation</a>.</p>
+		<div class="py-12 md:py-20">
+			<div class="mx-auto text-center max-w-screen-lg md:pb-16 pb-10">
+				<h1
+					class="font-bold font-heading mb-4 leading-tighter tracking-tighter dark:text-gray-200 md:text-6xl text-5xl"
+				>
+					Free template for <span class="hidden lg:inline"
+						>create your website<br class="2xl:hidden" />with</span
+					><span class="dark:text-white highlight text-accent"> Astro 2.0</span> + Tailwind CSS
+				</h1><div class="mx-auto max-w-3xl">
+					<p class="text-muted text-xl dark:text-slate-300 mb-6">
+						<span class="hidden sm:inline"
+							><span class="font-semibold">AstroWind</span> is a free, customizable and production-ready
+							template for Astro 2.0 + Tailwind CSS.</span
+						><span class="font-bold block mb-1 sm:hidden text-blue-600"
+							>AstroWind: Production-ready.</span
+						> Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing
+						Websites, Landing Pages &amp; Blogs.
+					</p><div
+						class="flex flex-col flex-nowrap gap-4 m-auto max-w-xs sm:flex-row sm:justify-center sm:max-w-md"
+					>
+						<div class="flex w-full sm:w-auto">
+							<a
+								href="https://github.com/onwidget/astrowind"
+								class="w-full btn btn-primary sm:mb-0"
+								rel="noopener"
+								target="_blank"
+								><svg astro-icon="tabler:download" class="h-5 w-5 -ml-1.5 mr-1" viewBox="0 0 24 24"
+									><g
+										fill="none"
+										class="icon-tabler"
+										stroke="currentColor"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-width="2"
+										><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2M7 11l5 5 5-5M12 4v12"
+										></path></g
+									></svg
+								> Get template</a>
+						</div><div class="flex w-full sm:w-auto">
+							<a href="#features" class="w-full btn">Learn more</a>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</main>
 	<CTASection />

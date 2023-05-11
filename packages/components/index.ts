@@ -14,6 +14,8 @@ import CTASection from './src/CTASection.astro';
 
 import StateLayout from './src/StateLayout.astro';
 import CountyLayout from './src/CountyLayout.astro';
+import CityLayout from './src/CityLayout.astro';
+import ServiceLayout from './src/ServiceLayout.astro';
 
 export {
   Fonts,
@@ -31,7 +33,9 @@ export {
   CTASection,
 
   StateLayout,
-  CountyLayout
+  CountyLayout,
+  CityLayout,
+  ServiceLayout
 };
 
 export * from "./src/locationTypes";

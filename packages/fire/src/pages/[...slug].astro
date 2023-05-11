@@ -1,7 +1,7 @@
 ---
 import { getStates } from "../data/utils";
 import PageLayout from "../layouts/Page.astro";
-import { CountyLayout, PAGE_TYPES, StateLayout } from "@1pro/components";
+import { CityLayout, CountyLayout, PAGE_TYPES, ServiceLayout, StateLayout } from "@1pro/components";
 
 export async function getStaticPaths() {
   const pages = []
@@ -38,8 +38,12 @@ const getLayout = (type: any) => {
       return StateLayout;
     case PAGE_TYPES.COUNTY:
       return CountyLayout;
+    case PAGE_TYPES.CITY:
+      return CityLayout;
+    case PAGE_TYPES.SERVICE:
+      return ServiceLayout;
     default:
-      return 'div';
+      throw new Error("Unknown page type");
   }
 }
 
