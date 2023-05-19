@@ -1,5 +1,4 @@
 ---
-import { Icon } from "astro-icon";
 import CTALink from "./CTALink.astro";
 import GradientText from "./GradientText.astro";
 import type { County, State } from "./locationTypes";
@@ -17,7 +16,7 @@ const { county, state } = Astro.props;
 		<h1
 			class="text-center text-2xl md:text-3xl font-bold leading-tighter tracking-tighter mb-3 md:mb-5 font-heading"
 		>
-      {county.name} <GradientText>{import.meta.env.VITE_FULL_SERVICES_TITLE}</GradientText>
+      {county.name} County <GradientText>{import.meta.env.VITE_FULL_SERVICES_TITLE}</GradientText>
 		</h1>
 		<div class="text-center">
 			<CTALink href={`tel:+1${county.phone}`} text={`Call Today at ${county.phone}`} color="amber" />

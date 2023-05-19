@@ -1,5 +1,5 @@
 ---
-import { getStates } from "../data/utils";
+import { getServices, getStates } from "../data/utils";
 import PageLayout from "../layouts/Page.astro";
 import { CityLayout, CountyLayout, PAGE_TYPES, ServiceLayout, StateLayout } from "@1pro/components";
 
@@ -28,9 +28,25 @@ export async function getStaticPaths() {
           type: PAGE_TYPES.COUNTY
         }
       });
+
       // gather county services
+      const countyServices = await getServices(state, county);
+      for (let countyService of countyServices) {
+        pages.push({
+          params: { slug: countyService.url },
+          props: {
+            county,
+            disclaimer: county.disclaimer,
+            service: countyService,
+            state,
+            title: countyService.title || 'FIX TITLE NOW!!!',
+            type: PAGE_TYPES.SERVICE
+          }
+        });
+      }
 
       // gather cities
+      if (!county.cities) continue;
       for (let city of county.cities!) {
         if (city.disabled) continue;
 
@@ -41,13 +57,27 @@ export async function getStaticPaths() {
             county,
             disclaimer: county.disclaimer,
             state,
-            title: city.title,
+            title: city.title || 'FIX TITLE NOW!!!',
             type: PAGE_TYPES.CITY
           }
         });
 
         // gather city services
-
+        const cityServices = await getServices(state, county, city);
+        for (let cityService of cityServices) {
+          pages.push({
+            params: { slug: cityService.url },
+            props: {
+              city,
+              county,
+              disclaimer: county.disclaimer,
+              service: cityService,
+              state,
+              title: cityService.title || 'FIX TITLE NOW!!!',
+              type: PAGE_TYPES.SERVICE
+            }
+          });
+        }
       }
     }
   }

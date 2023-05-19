@@ -1,4 +1,14 @@
-<div>
-  Service ---
-  
-</div>
+---
+import { getEntry } from 'astro:content';
+
+const { service, city, county } = Astro.props;
+
+const servicePost = await getEntry('services', 'fire-extinguisher-service');
+const { Content } = await servicePost.render();
+
+const location = city
+  ? city.name
+  : `${county.name} County`;
+
+---
+<Content service={service} location={location} />
