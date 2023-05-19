@@ -199,9 +199,226 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"services": {
+"annual-fire-hydrant-testing.mdx": {
+	id: "annual-fire-hydrant-testing.mdx";
+  slug: "annual-fire-hydrant-testing";
+  body: string;
+  collection: "services";
+  data: InferEntrySchema<"services">
+} & { render(): Render[".mdx"] };
+"fire-alarm-installation.mdx": {
+	id: "fire-alarm-installation.mdx";
+  slug: "fire-alarm-installation";
+  body: string;
+  collection: "services";
+  data: InferEntrySchema<"services">
+} & { render(): Render[".mdx"] };
+"fire-alarm-repair.mdx": {
+	id: "fire-alarm-repair.mdx";
+  slug: "fire-alarm-repair";
+  body: string;
+  collection: "services";
+  data: InferEntrySchema<"services">
+} & { render(): Render[".mdx"] };
+"fire-alarm-testing.mdx": {
+	id: "fire-alarm-testing.mdx";
+  slug: "fire-alarm-testing";
+  body: string;
+  collection: "services";
+  data: InferEntrySchema<"services">
+} & { render(): Render[".mdx"] };
+"fire-alarm.mdx": {
+	id: "fire-alarm.mdx";
+  slug: "fire-alarm";
+  body: string;
+  collection: "services";
+  data: InferEntrySchema<"services">
+} & { render(): Render[".mdx"] };
+"fire-extinguisher-annual-certification.mdx": {
+	id: "fire-extinguisher-annual-certification.mdx";
+  slug: "fire-extinguisher-annual-certification";
+  body: string;
+  collection: "services";
+  data: InferEntrySchema<"services">
+} & { render(): Render[".mdx"] };
+"fire-extinguisher-inspection.mdx": {
+	id: "fire-extinguisher-inspection.mdx";
+  slug: "fire-extinguisher-inspection";
+  body: string;
+  collection: "services";
+  data: InferEntrySchema<"services">
+} & { render(): Render[".mdx"] };
+"fire-extinguisher-installation.mdx": {
+	id: "fire-extinguisher-installation.mdx";
+  slug: "fire-extinguisher-installation";
+  body: string;
+  collection: "services";
+  data: InferEntrySchema<"services">
+} & { render(): Render[".mdx"] };
+"fire-extinguisher-recharge.mdx": {
+	id: "fire-extinguisher-recharge.mdx";
+  slug: "fire-extinguisher-recharge";
+  body: string;
+  collection: "services";
+  data: InferEntrySchema<"services">
+} & { render(): Render[".mdx"] };
+"fire-extinguisher-refill.mdx": {
+	id: "fire-extinguisher-refill.mdx";
+  slug: "fire-extinguisher-refill";
+  body: string;
+  collection: "services";
+  data: InferEntrySchema<"services">
+} & { render(): Render[".mdx"] };
 "fire-extinguisher-service.mdx": {
 	id: "fire-extinguisher-service.mdx";
   slug: "fire-extinguisher-service";
+  body: string;
+  collection: "services";
+  data: InferEntrySchema<"services">
+} & { render(): Render[".mdx"] };
+"fire-extinguisher-six-year-breakdown.mdx": {
+	id: "fire-extinguisher-six-year-breakdown.mdx";
+  slug: "fire-extinguisher-six-year-breakdown";
+  body: string;
+  collection: "services";
+  data: InferEntrySchema<"services">
+} & { render(): Render[".mdx"] };
+"fire-extinguisher-training.mdx": {
+	id: "fire-extinguisher-training.mdx";
+  slug: "fire-extinguisher-training";
+  body: string;
+  collection: "services";
+  data: InferEntrySchema<"services">
+} & { render(): Render[".mdx"] };
+"fire-hydrant-backflow-testing.mdx": {
+	id: "fire-hydrant-backflow-testing.mdx";
+  slug: "fire-hydrant-backflow-testing";
+  body: string;
+  collection: "services";
+  data: InferEntrySchema<"services">
+} & { render(): Render[".mdx"] };
+"fire-hydrant-installations.mdx": {
+	id: "fire-hydrant-installations.mdx";
+  slug: "fire-hydrant-installations";
+  body: string;
+  collection: "services";
+  data: InferEntrySchema<"services">
+} & { render(): Render[".mdx"] };
+"fire-hydrant-maintenance.mdx": {
+	id: "fire-hydrant-maintenance.mdx";
+  slug: "fire-hydrant-maintenance";
+  body: string;
+  collection: "services";
+  data: InferEntrySchema<"services">
+} & { render(): Render[".mdx"] };
+"fire-hydrant-repair.mdx": {
+	id: "fire-hydrant-repair.mdx";
+  slug: "fire-hydrant-repair";
+  body: string;
+  collection: "services";
+  data: InferEntrySchema<"services">
+} & { render(): Render[".mdx"] };
+"fire-hydrant-replacement.mdx": {
+	id: "fire-hydrant-replacement.mdx";
+  slug: "fire-hydrant-replacement";
+  body: string;
+  collection: "services";
+  data: InferEntrySchema<"services">
+} & { render(): Render[".mdx"] };
+"fire-hydrant.mdx": {
+	id: "fire-hydrant.mdx";
+  slug: "fire-hydrant";
+  body: string;
+  collection: "services";
+  data: InferEntrySchema<"services">
+} & { render(): Render[".mdx"] };
+"fire-kitchen-service.mdx": {
+	id: "fire-kitchen-service.mdx";
+  slug: "fire-kitchen-service";
+  body: string;
+  collection: "services";
+  data: InferEntrySchema<"services">
+} & { render(): Render[".mdx"] };
+"fire-sprinkler-design.mdx": {
+	id: "fire-sprinkler-design.mdx";
+  slug: "fire-sprinkler-design";
+  body: string;
+  collection: "services";
+  data: InferEntrySchema<"services">
+} & { render(): Render[".mdx"] };
+"fire-sprinkler-installation.mdx": {
+	id: "fire-sprinkler-installation.mdx";
+  slug: "fire-sprinkler-installation";
+  body: string;
+  collection: "services";
+  data: InferEntrySchema<"services">
+} & { render(): Render[".mdx"] };
+"fire-sprinkler-service.mdx": {
+	id: "fire-sprinkler-service.mdx";
+  slug: "fire-sprinkler-service";
+  body: string;
+  collection: "services";
+  data: InferEntrySchema<"services">
+} & { render(): Render[".mdx"] };
+"fire-sprinkler-test.mdx": {
+	id: "fire-sprinkler-test.mdx";
+  slug: "fire-sprinkler-test";
+  body: string;
+  collection: "services";
+  data: InferEntrySchema<"services">
+} & { render(): Render[".mdx"] };
+"fire-system-service.mdx": {
+	id: "fire-system-service.mdx";
+  slug: "fire-system-service";
+  body: string;
+  collection: "services";
+  data: InferEntrySchema<"services">
+} & { render(): Render[".mdx"] };
+"hydrostatic-testing.mdx": {
+	id: "hydrostatic-testing.mdx";
+  slug: "hydrostatic-testing";
+  body: string;
+  collection: "services";
+  data: InferEntrySchema<"services">
+} & { render(): Render[".mdx"] };
+"new-fire-extinguisher.mdx": {
+	id: "new-fire-extinguisher.mdx";
+  slug: "new-fire-extinguisher";
+  body: string;
+  collection: "services";
+  data: InferEntrySchema<"services">
+} & { render(): Render[".mdx"] };
+"refurbished-fire-extinguisher.mdx": {
+	id: "refurbished-fire-extinguisher.mdx";
+  slug: "refurbished-fire-extinguisher";
+  body: string;
+  collection: "services";
+  data: InferEntrySchema<"services">
+} & { render(): Render[".mdx"] };
+"restaurant-sprinkler-inspections.mdx": {
+	id: "restaurant-sprinkler-inspections.mdx";
+  slug: "restaurant-sprinkler-inspections";
+  body: string;
+  collection: "services";
+  data: InferEntrySchema<"services">
+} & { render(): Render[".mdx"] };
+"restaurant-sprinkler-repair.mdx": {
+	id: "restaurant-sprinkler-repair.mdx";
+  slug: "restaurant-sprinkler-repair";
+  body: string;
+  collection: "services";
+  data: InferEntrySchema<"services">
+} & { render(): Render[".mdx"] };
+"restaurant-sprinkler-testing.mdx": {
+	id: "restaurant-sprinkler-testing.mdx";
+  slug: "restaurant-sprinkler-testing";
+  body: string;
+  collection: "services";
+  data: InferEntrySchema<"services">
+} & { render(): Render[".mdx"] };
+"ul-300-compliance.mdx": {
+	id: "ul-300-compliance.mdx";
+  slug: "ul-300-compliance";
   body: string;
   collection: "services";
   data: InferEntrySchema<"services">

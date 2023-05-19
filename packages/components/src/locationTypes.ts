@@ -36,6 +36,7 @@ export interface State extends BaseLocationEntity {
 }
 
 export interface Service extends Omit<BaseLocationEntity, 'excludedServices'>{
+  rawUrl: string
   showInNav?: boolean
 }
 

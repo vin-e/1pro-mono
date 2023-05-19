@@ -3,7 +3,8 @@ import { getEntry } from 'astro:content';
 
 const { service, city, county } = Astro.props;
 
-const servicePost = await getEntry('services', 'fire-extinguisher-service');
+const servicePost = await getEntry('services', service.rawUrl);
+if (!servicePost) throw new Error(`No service found for ${service.rawUrl}`);
 const { Content } = await servicePost.render();
 
 const location = city

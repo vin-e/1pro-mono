@@ -4,7 +4,8 @@
 * hero/jumbo tron
 * cards for home page
 * build state pages
-* build city/county pages
+* build county pages
+* build city pages
 * build services pages
 * featured cities
 * static content from 

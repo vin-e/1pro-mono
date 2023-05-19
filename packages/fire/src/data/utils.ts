@@ -52,6 +52,7 @@ export const getServices = async (state: State, county?: County, city?: City): P
       }
       return {
         ...service,
+        rawUrl: service.url,
         url
       }
     });
