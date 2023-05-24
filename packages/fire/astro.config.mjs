@@ -7,6 +7,7 @@ import mdx from '@astrojs/mdx';
 export default defineConfig({
   integrations: [mdx(), tailwind()],
   trailingSlash: 'always',
+  compressHTML: true,
   vite: {
     css: {
       postcss: {

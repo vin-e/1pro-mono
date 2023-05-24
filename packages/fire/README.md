@@ -10,3 +10,5 @@
 * featured cities
 * static content from 
 * dynamic content from Markdown files
+* replace individual service pages with specific version for that city
+* fix nav
